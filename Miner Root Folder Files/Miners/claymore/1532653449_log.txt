@@ -1,0 +1,176 @@
+21:04:09:179	e10	Check and remove old log files...
+21:04:09:179	e10	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x 
+21:04:09:179	e10	
+21:04:09:179	e10	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:04:09:179	e10	บ                Claymore's Dual GPU Miner - v11.9               บ
+21:04:09:179	e10	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+21:04:09:179	e10	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:04:09:179	e10	
+21:04:09:179	e10	b597 
+21:04:09:397	e10	ETH: 1 pool is specified
+21:04:09:397	e10	Main Ethereum pool is us1.ethermine.org:4444
+21:04:09:397	e10	DCR: 0 pool is specified
+21:04:10:069	e10	OpenCL platform: Intel(R) OpenCL
+21:04:10:069	e10	OpenCL platform: AMD Accelerated Parallel Processing
+21:04:10:069	e10	OpenCL initializing...
+
+21:04:10:069	e10	AMD Cards available: 6 
+21:04:10:069	e10	GPU #0: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 1:0:0)
+21:04:10:069	e10	GPU #0 recognized as Radeon RX 480/580
+21:04:10:069	e10	GPU #1: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 2:0:0)
+21:04:10:069	e10	GPU #1 recognized as Radeon RX 550
+21:04:10:069	e10	GPU #2: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 4:0:0)
+21:04:10:069	e10	GPU #2 recognized as Radeon RX 550
+21:04:10:069	e10	GPU #3: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 5:0:0)
+21:04:10:069	e10	GPU #3 recognized as Radeon RX 550
+21:04:10:069	e10	GPU #4: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 6:0:0)
+21:04:10:069	e10	GPU #4 recognized as Radeon RX 550
+21:04:10:069	e10	GPU #5: Baffin (Radeon RX 560 Series), 4096 MB available, 16 compute units (pci bus 7:0:0)
+21:04:10:069	e10	GPU #5 recognized as Radeon RX 460/560
+21:04:10:069	e10	POOL/SOLO version
+21:04:10:069	e10	Platform: Windows
+21:04:10:116	e10	start building OpenCL program for GPU 0...
+21:04:10:553	e10	done
+21:04:10:788	e10	start building OpenCL program for GPU 1...
+21:04:10:975	e10	done
+21:04:11:194	e10	start building OpenCL program for GPU 2...
+21:04:11:381	e10	done
+21:04:11:600	e10	start building OpenCL program for GPU 3...
+21:04:11:772	e10	done
+21:04:12:006	e10	start building OpenCL program for GPU 4...
+21:04:12:193	e10	done
+21:04:12:412	e10	start building OpenCL program for GPU 5...
+21:04:12:600	e10	done
+21:04:12:834	e10	GPU #0: algorithm ASM 1
+21:04:12:865	e10	GPU #1: algorithm ASM 1
+21:04:12:896	e10	GPU #2: algorithm ASM 1
+21:04:12:928	e10	GPU #3: algorithm ASM 1
+21:04:12:959	e10	GPU #4: algorithm ASM 1
+21:04:12:990	e10	GPU #5: algorithm ASM 1
+21:04:12:990	e10	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+21:04:12:990	e10	No NVIDIA CUDA GPUs detected.
+21:04:12:990	e10	Total cards: 6 
+21:04:12:990	e10	
+Some GPUs (4) are 2GB and some (2) are not, developer fee will not be mined on 2GB GPUs, so devfee will be mined on 2 cards of 6.
+See Readme for details.
+
+21:04:14:631	e10	No NVIDIA cards in the list, NVML library will not be used.
+21:04:15:677	e10	SSL: Imported 31 certificates from local storage
+21:04:15:724	c30	ETH: Stratum - connecting to 'us1.ethermine.org' <18.191.218.23> port 4444 (unsecure)
+21:04:15:771	c30	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2", "x"], "id": 2, "method": "eth_submitLogin"}
+
+21:04:15:771	c30	ETH: Stratum - Connected (us1.ethermine.org:4444) (unsecure)
+21:04:15:802	e10	No pool specified for Decred! Ethereum-only mining mode is enabled
+21:04:15:802	e10	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:04:15:802	e10	ETH: eth-proxy stratum mode
+21:04:15:802	e10	Watchdog enabled
+21:04:15:802	e10	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:04:15:802	e10	
+21:04:15:802	e10	You did not specify -dcri values directly, so they will be detected automatically
+21:04:15:802	e10	Automatic detection of best -dcri values started, please wait...
+
+21:04:15:834	c30	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+21:04:15:834	c30	ETH: Authorized
+21:04:15:834	c30	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:04:15:896	c30	buf: {"id":3,"jsonrpc":"2.0","result":["0x4d9ba73ea11a3daf0ef1d53cd03a8b775c4a67245d67fd85a71350c105baa353","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bdf"]}
+
+21:04:15:912	6bc	Setting DAG epoch #201...
+21:04:17:646	dc	Setting DAG epoch #201 for GPU3
+21:04:17:646	dc	Create GPU buffer for GPU3
+21:04:17:646	6bc	Setting DAG epoch #201 for GPU0
+21:04:17:646	152c	Setting DAG epoch #201 for GPU2
+21:04:17:646	740	Setting DAG epoch #201 for GPU1
+21:04:17:646	6bc	Create GPU buffer for GPU0
+21:04:17:646	76c	Setting DAG epoch #201 for GPU4
+21:04:17:646	bc4	Setting DAG epoch #201 for GPU5
+21:04:17:646	152c	Create GPU buffer for GPU2
+21:04:17:646	740	Create GPU buffer for GPU1
+21:04:17:646	76c	Create GPU buffer for GPU4
+21:04:17:646	bc4	Create GPU buffer for GPU5
+21:04:23:207	c30	buf: {"id":0,"jsonrpc":"2.0","result":["0xc59f95c69a5d084949974ccf9781e87f7d186d6f927cc7c7c4dbe6eac98f38f2","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be0"]}
+
+21:04:23:472	c30	ETH: 07/26/18-21:04:23 - New job from us1.ethermine.org:4444
+21:04:23:519	c30	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:04:23:551	c30	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:04:23:722	c30	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:04:25:472	6bc	GPU0 DAG creation time - 7743 ms
+21:04:25:519	6bc	Setting DAG epoch #201 for GPU0 done
+21:04:26:050	c30	ETH: checking pool connection...
+21:04:26:206	c30	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:04:26:284	c30	buf: {"id":3,"jsonrpc":"2.0","result":["0xc59f95c69a5d084949974ccf9781e87f7d186d6f927cc7c7c4dbe6eac98f38f2","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be0"]}
+
+21:04:27:487	c30	buf: {"id":0,"jsonrpc":"2.0","result":["0x300086433168132cfd28f15d8dd3b755afd35a8f1092a2e4af34c32ab44ee154","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be0"]}
+
+21:04:27:612	c30	ETH: 07/26/18-21:04:27 - New job from us1.ethermine.org:4444
+21:04:27:628	c30	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:04:27:628	c30	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:04:27:628	c30	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:04:33:423	c30	buf: {"id":0,"jsonrpc":"2.0","result":["0x1c569759461ed76b34d789a7abf354f70bd68c3012a7ada3e1fafaff627cb737","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be1"]}
+
+21:04:33:642	c30	ETH: 07/26/18-21:04:33 - New job from us1.ethermine.org:4444
+21:04:33:673	c30	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:04:33:751	c30	ETH - Total Speed: 12.408 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:04:33:892	c30	ETH: GPU0 12.408 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:04:34:345	bc4	GPU5 DAG creation time - 16572 ms
+21:04:34:532	bc4	Setting DAG epoch #201 for GPU5 done
+21:04:35:938	c30	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xc661fc", "0x000000000000000000000000000000000000000000000000000000004b650298"]}
+
+21:04:36:063	c30	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:04:36:298	c30	ETH: checking pool connection...
+21:04:36:344	c30	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:04:36:423	c30	buf: {"id":3,"jsonrpc":"2.0","result":["0x1c569759461ed76b34d789a7abf354f70bd68c3012a7ada3e1fafaff627cb737","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be1"]}
+
+21:04:40:531	15ac	GPU0 t=66C fan=29%, GPU1 t=43C fan=0%, GPU2 t=39C fan=46%, GPU3 t=44C fan=0%, GPU4 t=37C fan=46%, GPU5 t=56C fan=35%
+21:04:44:171	2524	em hbt: 0, fm hbt: 0, 
+21:04:44:186	2524	watchdog - thread 0 (gpu0), hb time 593
+21:04:44:546	2524	watchdog - thread 1 (gpu0), hb time 1672
+21:04:44:671	2524	watchdog - thread 2 (gpu1), hb time 10063
+21:04:44:702	2524	watchdog - thread 3 (gpu1), hb time 10109
+21:04:44:702	2524	watchdog - thread 4 (gpu2), hb time 10125
+21:04:44:702	2524	watchdog - thread 5 (gpu2), hb time 10125
+21:04:44:702	2524	watchdog - thread 6 (gpu3), hb time 10125
+21:04:44:702	2524	watchdog - thread 7 (gpu3), hb time 10125
+21:04:44:702	2524	watchdog - thread 8 (gpu4), hb time 10125
+21:04:44:702	2524	watchdog - thread 9 (gpu4), hb time 10125
+21:04:44:702	2524	watchdog - thread 10 (gpu5), hb time 10125
+21:04:44:702	2524	watchdog - thread 11 (gpu5), hb time 1469
+21:04:46:405	c30	ETH: checking pool connection...
+21:04:46:436	c30	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:04:46:608	c30	buf: {"id":3,"jsonrpc":"2.0","result":["0x1c569759461ed76b34d789a7abf354f70bd68c3012a7ada3e1fafaff627cb737","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be1"]}
+
+21:04:53:294	c30	buf: {"id":0,"jsonrpc":"2.0","result":["0x61dc2957289bf6dbe1ef8f394588dad547cf6cdbc7b35fca310d37038a756a43","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be2"]}
+
+21:04:53:512	c30	ETH: 07/26/18-21:04:53 - New job from us1.ethermine.org:4444
+21:04:53:528	c30	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:04:53:809	c30	ETH - Total Speed: 13.190 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:04:54:122	c30	ETH: GPU0 11.999 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 1.191 Mh/s
+21:04:54:090	6bc	gd 0.64
+21:04:55:340	2524	GPU #0: apply best detected -dcri value: 30
+21:04:55:340	c30	buf: {"id":0,"jsonrpc":"2.0","result":["0x810442050dbf3d947b06c92e64c27076685cb65f5315a2a69d260eb68ecbc6df","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be3"]}
+
+21:04:55:980	c30	ETH: 07/26/18-21:04:55 - New job from us1.ethermine.org:4444
+21:04:56:074	c30	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:04:56:246	c30	ETH - Total Speed: 11.551 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:04:56:699	c30	ETH: GPU0 11.551 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:04:56:902	c30	ETH: checking pool connection...
+21:04:56:996	c30	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:04:57:011	c30	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xce6e94", "0x000000000000000000000000000000000000000000000000000000004b650298"]}
+
+21:04:57:058	c30	buf: {"id":3,"jsonrpc":"2.0","result":["0x810442050dbf3d947b06c92e64c27076685cb65f5315a2a69d260eb68ecbc6df","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be3"]}
+{"id":6,"jsonrpc":"2.0","result":true}
+
+21:04:57:058	c30	remove first packet 39
+21:05:00:229	c30	buf: {"id":0,"jsonrpc":"2.0","result":["0x0d00759451ac20ff7a3e165a68ab36669bcaf961849c7bb2ed47a6d6d77cb074","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1be4"]}
+
+21:05:00:511	c30	ETH: 07/26/18-21:05:00 - New job from us1.ethermine.org:4444
+21:05:00:620	c30	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:05:01:714	c30	ETH - Total Speed: 11.639 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:05:02:291	c30	ETH: GPU0 10.448 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 1.191 Mh/s
+21:05:02:823	e10	Quit, please wait...

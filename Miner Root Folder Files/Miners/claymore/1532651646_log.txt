@@ -1,0 +1,13 @@
+20:34:06:687	17ac	Check and remove old log files...
+20:34:06:741	17ac	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x -tt 5 -tstop -93 -allpools 1 -allcoins 1 -dcri 29 -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal pjrudd.Miner2 -dpsw x -mport 0 
+20:34:06:755	17ac	
+20:34:08:073	17ac	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:34:08:125	17ac	บ                Claymore's Dual GPU Miner - v11.9               บ
+20:34:08:131	17ac	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+20:34:08:134	17ac	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:34:08:142	17ac	
+20:34:08:145	17ac	b597 
+20:34:08:473	17ac	ETH: 1 pool is specified
+20:34:08:484	17ac	Main Ethereum pool is us1.ethermine.org:4444
+20:34:08:484	17ac	DCR: 1 pool is specified
+20:34:08:497	17ac	Main Decred pool is dcr.suprnova.cc:3252

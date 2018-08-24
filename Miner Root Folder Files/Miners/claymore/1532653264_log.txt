@@ -1,0 +1,242 @@
+21:01:04:128	e64	Check and remove old log files...
+21:01:04:128	e64	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x 
+21:01:04:128	e64	
+21:01:04:128	e64	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:01:04:128	e64	บ                Claymore's Dual GPU Miner - v11.9               บ
+21:01:04:128	e64	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+21:01:04:128	e64	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:01:04:128	e64	
+21:01:04:128	e64	b597 
+21:01:04:346	e64	ETH: 1 pool is specified
+21:01:04:346	e64	Main Ethereum pool is us1.ethermine.org:4444
+21:01:04:346	e64	DCR: 0 pool is specified
+21:01:04:987	e64	OpenCL platform: Intel(R) OpenCL
+21:01:04:987	e64	OpenCL platform: AMD Accelerated Parallel Processing
+21:01:04:987	e64	OpenCL initializing...
+
+21:01:04:987	e64	AMD Cards available: 6 
+21:01:04:987	e64	GPU #0: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 1:0:0)
+21:01:04:987	e64	GPU #0 recognized as Radeon RX 480/580
+21:01:04:987	e64	GPU #1: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 2:0:0)
+21:01:04:987	e64	GPU #1 recognized as Radeon RX 550
+21:01:04:987	e64	GPU #2: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 4:0:0)
+21:01:04:987	e64	GPU #2 recognized as Radeon RX 550
+21:01:04:987	e64	GPU #3: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 5:0:0)
+21:01:04:987	e64	GPU #3 recognized as Radeon RX 550
+21:01:04:987	e64	GPU #4: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 6:0:0)
+21:01:04:987	e64	GPU #4 recognized as Radeon RX 550
+21:01:04:987	e64	GPU #5: Baffin (Radeon RX 560 Series), 4096 MB available, 16 compute units (pci bus 7:0:0)
+21:01:04:987	e64	GPU #5 recognized as Radeon RX 460/560
+21:01:04:987	e64	POOL/SOLO version
+21:01:04:987	e64	Platform: Windows
+21:01:05:049	e64	start building OpenCL program for GPU 0...
+21:01:05:471	e64	done
+21:01:05:706	e64	start building OpenCL program for GPU 1...
+21:01:05:893	e64	done
+21:01:06:112	e64	start building OpenCL program for GPU 2...
+21:01:06:299	e64	done
+21:01:06:518	e64	start building OpenCL program for GPU 3...
+21:01:06:705	e64	done
+21:01:06:924	e64	start building OpenCL program for GPU 4...
+21:01:07:096	e64	done
+21:01:07:330	e64	start building OpenCL program for GPU 5...
+21:01:07:518	e64	done
+21:01:07:752	e64	GPU #0: algorithm ASM 1
+21:01:07:783	e64	GPU #1: algorithm ASM 1
+21:01:07:814	e64	GPU #2: algorithm ASM 1
+21:01:07:846	e64	GPU #3: algorithm ASM 1
+21:01:07:877	e64	GPU #4: algorithm ASM 1
+21:01:07:908	e64	GPU #5: algorithm ASM 1
+21:01:07:908	e64	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+21:01:07:908	e64	No NVIDIA CUDA GPUs detected.
+21:01:07:908	e64	Total cards: 6 
+21:01:07:908	e64	
+Some GPUs (4) are 2GB and some (2) are not, developer fee will not be mined on 2GB GPUs, so devfee will be mined on 2 cards of 6.
+See Readme for details.
+
+21:01:09:549	e64	No NVIDIA cards in the list, NVML library will not be used.
+21:01:10:595	e64	SSL: Imported 31 certificates from local storage
+21:01:10:642	10f8	ETH: Stratum - connecting to 'us1.ethermine.org' <18.216.129.45> port 4444 (unsecure)
+21:01:10:705	e64	No pool specified for Decred! Ethereum-only mining mode is enabled
+21:01:10:705	e64	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:01:10:705	e64	ETH: eth-proxy stratum mode
+21:01:10:705	e64	Watchdog enabled
+21:01:10:705	e64	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:01:10:705	e64	
+21:01:10:705	e64	You did not specify -dcri values directly, so they will be detected automatically
+21:01:10:705	e64	Automatic detection of best -dcri values started, please wait...
+
+21:01:10:705	10f8	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2", "x"], "id": 2, "method": "eth_submitLogin"}
+
+21:01:10:705	10f8	ETH: Stratum - Connected (us1.ethermine.org:4444) (unsecure)
+21:01:10:767	10f8	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+21:01:10:767	10f8	ETH: Authorized
+21:01:10:767	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:01:10:814	10f8	buf: {"id":3,"jsonrpc":"2.0","result":["0x04157a330bc8342bcb7c223881c9b0f6f40051a28b721f68561d160bffb187fb","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bca"]}
+
+21:01:10:830	8bc	Setting DAG epoch #201...
+21:01:12:564	bd8	Setting DAG epoch #201 for GPU4
+21:01:12:564	bd8	Create GPU buffer for GPU4
+21:01:12:564	1124	Setting DAG epoch #201 for GPU5
+21:01:12:564	894	Setting DAG epoch #201 for GPU1
+21:01:12:564	cbc	Setting DAG epoch #201 for GPU3
+21:01:12:564	cbc	Create GPU buffer for GPU3
+21:01:12:564	1124	Create GPU buffer for GPU5
+21:01:12:564	8f4	Setting DAG epoch #201 for GPU0
+21:01:12:564	894	Create GPU buffer for GPU1
+21:01:12:564	8bc	Setting DAG epoch #201 for GPU2
+21:01:12:564	8f4	Create GPU buffer for GPU0
+21:01:12:564	8bc	Create GPU buffer for GPU2
+21:01:19:234	8f4	GPU0 DAG creation time - 6584 ms
+21:01:19:265	8f4	Setting DAG epoch #201 for GPU0 done
+21:01:21:077	10f8	ETH: checking pool connection...
+21:01:21:296	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:01:21:390	10f8	buf: {"id":3,"jsonrpc":"2.0","result":["0x04157a330bc8342bcb7c223881c9b0f6f40051a28b721f68561d160bffb187fb","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bca"]}
+
+21:01:21:483	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0x5da7e91c86cf8981efb7779d0cb8ac6c4cf6fa33eb0e2fb49f66f95e654969e5","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcb"]}
+
+21:01:21:561	10f8	ETH: 07/26/18-21:01:21 - New job from us1.ethermine.org:4444
+21:01:21:593	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:01:21:890	10f8	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:01:22:171	10f8	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:01:29:075	1124	GPU5 DAG creation time - 16358 ms
+21:01:29:122	1124	Setting DAG epoch #201 for GPU5 done
+21:01:30:841	10f8	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xd27550", "0x000000000000000000000000000000000000000000000000000000004dc8763b"]}
+
+21:01:30:934	10f8	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:01:31:387	10f8	ETH: checking pool connection...
+21:01:31:997	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:01:32:106	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0x808af78be1a38755ec28c9d4e2f2e700b9cef503af6bef0f54b611d1e3fbaef2","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcc"]}
+{"id":3,"jsonrpc":"2.0","result":["0x808af78be1a38755ec28c9d4e2f2e700b9cef503af6bef0f54b611d1e3fbaef2","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcc"]}
+
+21:01:32:137	10f8	remove first packet 248
+21:01:32:278	10f8	ETH: 07/26/18-21:01:32 - New job from us1.ethermine.org:4444
+21:01:32:309	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:01:32:325	10f8	ETH - Total Speed: 11.245 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:01:32:450	10f8	ETH: GPU0 11.245 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:01:35:402	267c	GPU0 t=61C fan=24%, GPU1 t=44C fan=0%, GPU2 t=40C fan=46%, GPU3 t=45C fan=0%, GPU4 t=37C fan=46%, GPU5 t=57C fan=35%
+21:01:37:870	2678	em hbt: 31, fm hbt: -16, 
+21:01:37:948	2678	watchdog - thread 0 (gpu0), hb time 62
+21:01:37:948	2678	watchdog - thread 1 (gpu0), hb time 797
+21:01:37:964	2678	watchdog - thread 2 (gpu1), hb time 8844
+21:01:37:964	2678	watchdog - thread 3 (gpu1), hb time 8844
+21:01:37:964	2678	watchdog - thread 4 (gpu2), hb time 8844
+21:01:37:964	2678	watchdog - thread 5 (gpu2), hb time 8844
+21:01:37:964	2678	watchdog - thread 6 (gpu3), hb time 8844
+21:01:37:964	2678	watchdog - thread 7 (gpu3), hb time 8844
+21:01:37:964	2678	watchdog - thread 8 (gpu4), hb time 8844
+21:01:37:979	2678	watchdog - thread 9 (gpu4), hb time 8859
+21:01:37:979	2678	watchdog - thread 10 (gpu5), hb time 8859
+21:01:37:979	2678	watchdog - thread 11 (gpu5), hb time 8859
+21:01:42:104	10f8	ETH: checking pool connection...
+21:01:42:119	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:01:42:197	10f8	buf: {"id":3,"jsonrpc":"2.0","result":["0x808af78be1a38755ec28c9d4e2f2e700b9cef503af6bef0f54b611d1e3fbaef2","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcc"]}
+
+21:01:42:588	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0x7a5cfb4e0c2fd354dabe02602fee6a430cdb499155ee73556334b3c9fa8adf42","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcc"]}
+
+21:01:42:697	10f8	ETH: 07/26/18-21:01:42 - New job from us1.ethermine.org:4444
+21:01:42:713	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:01:42:760	10f8	ETH - Total Speed: 14.871 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:01:42:775	10f8	ETH: GPU0 14.871 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:01:50:883	10f8	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xdc6821", "0x000000000000000000000000000000000000000000000000000000004dc8763b"]}
+
+21:01:51:008	10f8	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:01:52:132	10f8	ETH: checking pool connection...
+21:01:52:195	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:01:52:320	10f8	buf: {"id":3,"jsonrpc":"2.0","result":["0x7a5cfb4e0c2fd354dabe02602fee6a430cdb499155ee73556334b3c9fa8adf42","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcc"]}
+
+21:01:55:678	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0x763d41f6420b26e1e12a03e274d7795a41dd29e971b9a1bf66571e0ead72260e","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcd"]}
+
+21:01:55:991	10f8	ETH: 07/26/18-21:01:55 - New job from us1.ethermine.org:4444
+21:01:56:100	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:01:56:366	10f8	ETH - Total Speed: 10.886 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:01:56:491	cc0	gd 0.86
+21:01:56:678	10f8	ETH: GPU0 10.886 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:01:59:037	2678	GPU #0: apply best detected -dcri value: 10
+21:02:02:224	10f8	ETH: checking pool connection...
+21:02:02:271	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:02:02:396	10f8	buf: {"id":3,"jsonrpc":"2.0","result":["0x763d41f6420b26e1e12a03e274d7795a41dd29e971b9a1bf66571e0ead72260e","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcd"]}
+
+21:02:02:489	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0x3947c4058ccfaeb5ac92e929dc61d25e629c49abd6e5f1f885293af957254081","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bce"]}
+
+21:02:02:724	10f8	ETH: 07/26/18-21:02:02 - New job from us1.ethermine.org:4444
+21:02:02:817	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:02:02:989	10f8	ETH - Total Speed: 13.582 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:02:03:208	10f8	ETH: GPU0 13.582 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:02:07:145	267c	GPU0 t=65C fan=37%, GPU1 t=44C fan=0%, GPU2 t=39C fan=46%, GPU3 t=45C fan=0%, GPU4 t=37C fan=46%, GPU5 t=52C fan=32%
+21:02:10:878	10f8	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xba70f0", "0x000000000000000000000000000000000000000000000000000000004dc8763b"]}
+
+21:02:10:956	10f8	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:02:11:800	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0xcc0d3a826ab4b52acfcfce69b373ce8f3f154cad598bf627922a9de0a2dfbd9d","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcf"]}
+
+21:02:11:925	10f8	ETH: 07/26/18-21:02:11 - New job from us1.ethermine.org:4444
+21:02:12:050	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:02:12:065	10f8	ETH - Total Speed: 14.828 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+21:02:12:190	10f8	ETH: GPU0 14.828 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:02:12:300	10f8	ETH: checking pool connection...
+21:02:12:331	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:02:12:393	10f8	buf: {"id":3,"jsonrpc":"2.0","result":["0xcc0d3a826ab4b52acfcfce69b373ce8f3f154cad598bf627922a9de0a2dfbd9d","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bcf"]}
+
+21:02:12:815	2678	em hbt: 0, fm hbt: 0, 
+21:02:12:940	2678	watchdog - thread 0 (gpu0), hb time 688
+21:02:12:940	2678	watchdog - thread 1 (gpu0), hb time 703
+21:02:12:940	2678	watchdog - thread 2 (gpu1), hb time 43812
+21:02:12:940	2678	watchdog - thread 3 (gpu1), hb time 43812
+21:02:12:940	2678	watchdog - thread 4 (gpu2), hb time 43812
+21:02:12:940	2678	watchdog - thread 5 (gpu2), hb time 43812
+21:02:12:940	2678	watchdog - thread 6 (gpu3), hb time 43812
+21:02:12:940	2678	watchdog - thread 7 (gpu3), hb time 43812
+21:02:12:940	2678	watchdog - thread 8 (gpu4), hb time 43812
+21:02:12:940	2678	watchdog - thread 9 (gpu4), hb time 43812
+21:02:12:940	2678	watchdog - thread 10 (gpu5), hb time 43812
+21:02:12:940	2678	watchdog - thread 11 (gpu5), hb time 43812
+21:02:13:143	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0xfe23e66e227cc0f2f96504f79468c5cb73479b1601aa2046d03ed0833bf0d6c0","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bd0"]}
+
+21:02:13:440	10f8	ETH: 07/26/18-21:02:13 - New job from us1.ethermine.org:4444
+21:02:13:518	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:02:13:690	10f8	ETH - Total Speed: 14.144 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+21:02:13:815	10f8	ETH: GPU0 14.144 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:02:18:142	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0xfa9f7916d16e802500480f78fb2622f8e64ce2a6705cb3f07f913646ce8e3638","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bd1"]}
+
+21:02:18:283	10f8	ETH: 07/26/18-21:02:18 - New job from us1.ethermine.org:4444
+21:02:18:392	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:02:18:595	10f8	ETH - Total Speed: 9.962 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+21:02:18:642	10f8	ETH: GPU0 9.962 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:02:21:001	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0x424653addb3ca119a1ff1ee9a17eff3bfc9d3e4809043adffc14c2662fd060dd","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bd2"]}
+
+21:02:21:235	10f8	ETH: 07/26/18-21:02:21 - New job from us1.ethermine.org:4444
+21:02:21:297	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:02:21:344	10f8	ETH - Total Speed: 10.316 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+21:02:21:532	10f8	ETH: GPU0 10.316 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:02:22:344	10f8	ETH: checking pool connection...
+21:02:22:453	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:02:22:500	10f8	buf: {"id":3,"jsonrpc":"2.0","result":["0x424653addb3ca119a1ff1ee9a17eff3bfc9d3e4809043adffc14c2662fd060dd","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bd2"]}
+
+21:02:31:201	10f8	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xb66984", "0x000000000000000000000000000000000000000000000000000000004dc8763b"]}
+
+21:02:31:389	10f8	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:02:32:186	10f8	buf: {"id":0,"jsonrpc":"2.0","result":["0xfea75df4147258457f590ac747a9d2e71ffc4d657ca1d0750250da96280a216c","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bd3"]}
+
+21:02:32:498	10f8	ETH: 07/26/18-21:02:32 - New job from us1.ethermine.org:4444
+21:02:32:857	10f8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+21:02:33:185	10f8	ETH - Total Speed: 11.319 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+21:02:33:217	10f8	ETH: GPU0 11.319 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+21:02:33:263	10f8	ETH: checking pool connection...
+21:02:33:326	10f8	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:02:33:670	10f8	buf: {"id":3,"jsonrpc":"2.0","result":["0xfea75df4147258457f590ac747a9d2e71ffc4d657ca1d0750250da96280a216c","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1bd3"]}
+
+21:02:34:810	e64	Quit, please wait...

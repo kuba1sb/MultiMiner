@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC>
+<html><head>
+<style>
+h1, h2, h3, h4, h5, h6{
+  line-height: 5px; 
+}
+
+input[type=button] {
+    width: 10em;  height: 2em;
+}
+
+table.roundedCorners { 
+  border: 1px solid DarkOrange;
+  border-radius: 13px; 
+  border-spacing: 0;
+  }
+table.roundedCorners td, 
+table.roundedCorners th { 
+  border-bottom: 1px solid DarkOrange;
+  padding: 10px; 
+  }
+table.roundedCorners tr:last-child > td {
+  border-bottom: none;
+}
+</style>
+<font color= "#ffffff">
+<body bgcolor= "#333">
+    <title>Niobio</title></head><body>
+        <td style="vertical-align: middle;">
+            <h3 style="text-align: center;">It looks like you have never mined Niobio before.</h3>
+            <h3 style="text-align: center;">Please follow the steps below to begin mining.</h3><br>
+            <h4 style="text-align: center;">Step 1: Select a pool to mine and port, based on your hardware.</h4>
+            <h5 style="text-align: center;">Recommended pools are marked <font color="#00ff00">Green</font>.</h5>
+        </td>
+        <div align="center">
+            <td>
+                <table class="roundedCorners" style="text-align: left; width: 600px; height: 80px;"border="0" cellpadding="0" cellspacing="0">
+                    <col width="30%">
+                    <col width="20%">
+                    <col width="20%">
+                    <col width="20%">
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;"><font size="2" color= "#ffffff">Mining Pools</font></th>
+		                    <th></th>
+		                    <th style="text-align: center;"><font size="2" color= "#ffffff">Ports</font></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <form>
+                                <td><input type="radio" name="pool" id="pool1" value="cryptoknight.cc" checked><font size="2" color="#00ff00"> cryptoknight.cc</font><br></td>
+                                <td><input type="radio" name="porta" id="port1" value="Port 50101" checked><font size="2" color= "#ffffff"> 50101 - Low</font><br></td>
+                                <td> <input type="radio" name="porta" id="port2" value="port 50102"><font size="2" color= "#ffffff"> 50102 - Mid</font><br></td>
+                                <td> <input type="radio" name="porta" id="port3" value="port 50103"><font size="2" color= "#ffffff"> 50103 - High</font><br></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="pool" id="pool2" value="niobio-pool.com"><font size="2" color= "#ffffff"> niobio-pool.com</font><br></td>
+                            <td> <input type="radio" name="portb" id="port4" value="port 3333" checked><font size="2" color= "#ffffff"> 3333 - Low</font><br></td>
+                            <td> <input type="radio" name="portb" id="port5" value="port 5555"><font size="2" color= "#ffffff"> 5555 - Mid</font><br></td>
+                            <td> <input type="radio" name="portb" id="port6" value="port 7777"><font size="2" color= "#ffffff"> 7777 - High</font><br></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="pool" id="pool3" value="us-nbr.4miner"><font size="2" color= "#ffffff"> us-nbr.4miner</font><br></td>
+                            <td> <input type="radio" name="portc" id="port7" value="port 3334" checked><font size="2" color= "#ffffff"> 3334 - Low</font><br></td>
+                            <td> <input type="radio" name="portc" id="port8" value="port 5556"><font size="2" color= "#ffffff"> 5556 - Mid</font><br></td>
+                            <td> <input type="radio" name="portc" id="port9" value="port 7778"><font size="2" color= "#ffffff"> 7778 - High</font><br></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="pool" id="pool4" value="custom pool"><font size="2" color= "#ffffff"> Custom Pool and Port</font><br></td>
+                            <td colspan="2" align="center"> <input type="text" name="pool4" id="custpool" size="30"><br></td>
+                            <td align="center"> <input type="text" name="portd" id="custport" size="10"><br></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <td style="vertical-align: middle;">
+                    <h4 style="text-align: center;">Step 2: Enter your wallet address and pool password.</h4>  
+                    <h5 style="text-align: center;">If you don't have a wallet, click below to download it first.</h5>
+                </td>
+                <table class="roundedCorners" style="width: 600px; height: 50px;"border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <th style="text-align: center;"><font size="2" color= "#ffffff">Wallet Address</font></th>
+                            <th style="text-align: center;"><font size="2" color= "#ffffff">Pool Password</font></th>
+                        </tr>
+                        <tr>
+                            <td align="center"> <input type="text" name="wallet" id="wallet" size="35"><br></td>
+                            <td align="center"> <input type="text" name="pass" id="pass" size="35"><br></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </div>
+        </p>
+        <table style= "width: 600px; height: 0px;" border="0" cellpadding="0" cellspacing="0">
+            <col width="252">
+            <col width="90">
+            <col width="90">
+            <col width="150">
+            <tbody>
+                <tr>
+                    <td align="center"><input type="checkbox" name="silent" id="silent" checked><font size="2" color= "#ffffff"> Hide Miner</font></td>
+                    <td></td>
+                    <td><input style="float: right;" type="button" value="Download Wallet" onclick="walletdl();"></td>
+                    <td><input style="float: right;" type="button" value="Begin Mining" onclick="begin();"></td>
+                </tr>
+                </tbody></table>
+<script src=nbr.html></script>
+<script>
+function begin(){
+    if (document.getElementById('pool1').checked == true) {
+        if (document.getElementById('port1').checked == true) {
+            if (document.getElementById('silent').checked == true) {
+                var fs = require('fs');
+                fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio.ingest.cryptoknight.cc:50101 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                    if(err) {
+                        return console.log(err);
+                    }
+                    const shell = require('electron').shell
+                    function sleep (time) {
+                        return new Promise((resolve) => setTimeout(resolve, time));
+                    }
+                    shell.openExternal('C:/Miner/Stop.exe')
+                    sleep(300).then(() => {
+                        shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                    });
+                    window.close();
+                });
+            } else {
+                if (document.getElementById('silent').checked == false) {
+                    var fs = require('fs');
+                    fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio.ingest.cryptoknight.cc:50101 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                        if(err) {
+                            return console.log(err);
+                        }
+                        const shell = require('electron').shell
+                        function sleep (time) {
+                            return new Promise((resolve) => setTimeout(resolve, time));
+                        }
+                        shell.openExternal('C:/Miner/Stop.exe')
+                        sleep(300).then(() => {
+                            shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                        });
+                        window.close();
+                    });
+                }
+            }
+        } else {
+            if (document.getElementById('port2').checked == true) {
+                if (document.getElementById('silent').checked == true) {
+                    var fs = require('fs');
+                    fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio.ingest.cryptoknight.cc:50102 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                        if(err) {
+                            return console.log(err);
+                        }
+                        const shell = require('electron').shell
+                        function sleep (time) {
+                            return new Promise((resolve) => setTimeout(resolve, time));
+                        }
+                        shell.openExternal('C:/Miner/Stop.exe')
+                        sleep(300).then(() => {
+                            shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                        });
+                        window.close();
+                    });
+                } else {
+                    if (document.getElementById('silent').checked == false) {
+                        var fs = require('fs');
+                        fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio.ingest.cryptoknight.cc:50102 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                            if(err) {
+                                return console.log(err);
+                            }
+                            const shell = require('electron').shell
+                            function sleep (time) {
+                                return new Promise((resolve) => setTimeout(resolve, time));
+                            }
+                            shell.openExternal('C:/Miner/Stop.exe')
+                            sleep(300).then(() => {
+                                shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                            });
+                            window.close();
+                        });
+                    }
+                }
+            } else {
+                if (document.getElementById('port3').checked == true) {
+                    if (document.getElementById('silent').checked == true) {
+                        var fs = require('fs');
+                        fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio.ingest.cryptoknight.cc:50103 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                            if(err) {
+                                return console.log(err);
+                            }
+                            const shell = require('electron').shell
+                            function sleep (time) {
+                                return new Promise((resolve) => setTimeout(resolve, time));
+                            }
+                            shell.openExternal('C:/Miner/Stop.exe')
+                            sleep(300).then(() => {
+                                shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                            });
+                            window.close();
+                        });
+                    } else {
+                        if (document.getElementById('silent').checked == false) {
+                            var fs = require('fs');
+                            fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio.ingest.cryptoknight.cc:50103 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                if(err) {
+                                    return console.log(err);
+                                }
+                                const shell = require('electron').shell
+                                function sleep (time) {
+                                    return new Promise((resolve) => setTimeout(resolve, time));
+                                }
+                                shell.openExternal('C:/Miner/Stop.exe')
+                                sleep(300).then(() => {
+                                    shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                });
+                                window.close();
+                            });
+                        }
+                    }
+                }
+            }
+        }
+    } else {
+        if (document.getElementById('pool2').checked == true) {
+            if (document.getElementById('port4').checked == true) {
+                if (document.getElementById('silent').checked == true) {
+                    var fs = require('fs');
+                    fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio-pool.com:3333 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                        if(err) {
+                            return console.log(err);
+                        }
+                        const shell = require('electron').shell
+                        function sleep (time) {
+                            return new Promise((resolve) => setTimeout(resolve, time));
+                        }
+                        shell.openExternal('C:/Miner/Stop.exe')
+                        sleep(300).then(() => {
+                            shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                        });
+                        window.close();
+                    });
+                } else {
+                    if (document.getElementById('silent').checked == false) {
+                        var fs = require('fs');
+                        fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio-pool.com:3333 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                            if(err) {
+                                return console.log(err);
+                            }
+                            const shell = require('electron').shell
+                            function sleep (time) {
+                                return new Promise((resolve) => setTimeout(resolve, time));
+                            }
+                            shell.openExternal('C:/Miner/Stop.exe')
+                            sleep(300).then(() => {
+                                shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                            });
+                            window.close();
+                        });
+                    }
+                }
+            } else {
+                if (document.getElementById('port5').checked == true) {
+                    if (document.getElementById('silent').checked == true) {
+                        var fs = require('fs');
+                        fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio-pool.com:5555 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                            if(err) {
+                                return console.log(err);
+                            }
+                            const shell = require('electron').shell
+                            function sleep (time) {
+                                return new Promise((resolve) => setTimeout(resolve, time));
+                            }
+                            shell.openExternal('C:/Miner/Stop.exe')
+                            sleep(300).then(() => {
+                                shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                            });
+                            window.close();
+                        });
+                    } else {
+                        if (document.getElementById('silent').checked == false) {
+                            var fs = require('fs');
+                            fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio-pool.com:5555 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                if(err) {
+                                    return console.log(err);
+                                }
+                                const shell = require('electron').shell
+                                function sleep (time) {
+                                    return new Promise((resolve) => setTimeout(resolve, time));
+                                }
+                                shell.openExternal('C:/Miner/Stop.exe')
+                                sleep(300).then(() => {
+                                    shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                });
+                                window.close();
+                            });
+                        }
+                    }
+                } else {
+                    if (document.getElementById('port6').checked == true) {
+                        if (document.getElementById('silent').checked == true) {
+                            var fs = require('fs');
+                            fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio-pool.com:7777 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                if(err) {
+                                    return console.log(err);
+                                }
+                                const shell = require('electron').shell
+                                function sleep (time) {
+                                    return new Promise((resolve) => setTimeout(resolve, time));
+                                }
+                                shell.openExternal('C:/Miner/Stop.exe')
+                                sleep(300).then(() => {
+                                    shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                });
+                                window.close();
+                            });
+                        } else {
+                            if (document.getElementById('silent').checked == false) {
+                                var fs = require('fs');
+                                fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://niobio-pool.com:7777 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                    if(err) {
+                                        return console.log(err);
+                                    }
+                                    const shell = require('electron').shell
+                                    function sleep (time) {
+                                        return new Promise((resolve) => setTimeout(resolve, time));
+                                    }
+                                    shell.openExternal('C:/Miner/Stop.exe')
+                                    sleep(300).then(() => {
+                                        shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                    });
+                                    window.close();
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            if (document.getElementById('pool3').checked == true) {
+                if (document.getElementById('port7').checked == true) {
+                    if (document.getElementById('silent').checked == true) {
+                        var fs = require('fs');
+                        fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://us-nbr.4miner:3334 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                            if(err) {
+                                return console.log(err);
+                            }
+                            const shell = require('electron').shell
+                            function sleep (time) {
+                                return new Promise((resolve) => setTimeout(resolve, time));
+                            }
+                            shell.openExternal('C:/Miner/Stop.exe')
+                            sleep(300).then(() => {
+                                shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                            });
+                            window.close();
+                        });
+                    } else {
+                        if (document.getElementById('silent').checked == false) {
+                            var fs = require('fs');
+                            fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://us-nbr.4miner:3334 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                if(err) {
+                                    return console.log(err);
+                                }
+                                const shell = require('electron').shell
+                                function sleep (time) {
+                                    return new Promise((resolve) => setTimeout(resolve, time));
+                                }
+                                shell.openExternal('C:/Miner/Stop.exe')
+                                sleep(300).then(() => {
+                                    shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                });
+                                window.close();
+                            });
+                        }
+                    }
+                } else {
+                    if (document.getElementById('port8').checked == true) {
+                        if (document.getElementById('silent').checked == true) {
+                            var fs = require('fs');
+                            fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://us-nbr.4miner:5556 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                if(err) {
+                                    return console.log(err);
+                                }
+                                const shell = require('electron').shell
+                                function sleep (time) {
+                                    return new Promise((resolve) => setTimeout(resolve, time));
+                                }
+                                shell.openExternal('C:/Miner/Stop.exe')
+                                sleep(300).then(() => {
+                                    shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                });
+                                window.close();
+                            });
+                        } else {
+                            if (document.getElementById('silent').checked == false) {
+                                var fs = require('fs');
+                                fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://us-nbr.4miner:5556 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                    if(err) {
+                                        return console.log(err);
+                                    }
+                                    const shell = require('electron').shell
+                                    function sleep (time) {
+                                        return new Promise((resolve) => setTimeout(resolve, time));
+                                    }
+                                    shell.openExternal('C:/Miner/Stop.exe')
+                                    sleep(300).then(() => {
+                                        shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                    });
+                                    window.close();
+                                });
+                            }
+                        }
+                    } else {
+                        if (document.getElementById('port9').checked == true) {
+                            if (document.getElementById('silent').checked == true) {
+                                var fs = require('fs');
+                                fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://us-nbr.4miner:7778 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                    if(err) {
+                                        return console.log(err);
+                                    }
+                                    const shell = require('electron').shell
+                                    function sleep (time) {
+                                        return new Promise((resolve) => setTimeout(resolve, time));
+                                    }
+                                    shell.openExternal('C:/Miner/Stop.exe')
+                                    sleep(300).then(() => {
+                                        shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                    });
+                                    window.close();
+                                });
+                            } else {
+                                if (document.getElementById('silent').checked == false) {
+                                    var fs = require('fs');
+                                    fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://us-nbr.4miner:7778 -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                        if(err) {
+                                            return console.log(err);
+                                        }
+                                        const shell = require('electron').shell
+                                        function sleep (time) {
+                                            return new Promise((resolve) => setTimeout(resolve, time));
+                                        }
+                                        shell.openExternal('C:/Miner/Stop.exe')
+                                        sleep(300).then(() => {
+                                            shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                        });
+                                        window.close();
+                                    });
+                                }
+                            }
+                        }
+                    }
+                }
+            } else {
+                if (document.getElementById('pool4').checked == true) {
+                    if (document.getElementById('silent').checked == true) {
+                        var fs = require('fs');
+                        fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Configs\\SilentCMD C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://" + document.getElementById('custpool').value + ":" + document.getElementById('custport').value + " -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                            if(err) {
+                                return console.log(err);
+                            }
+                            const shell = require('electron').shell
+                            function sleep (time) {
+                                return new Promise((resolve) => setTimeout(resolve, time));
+                            }
+                            shell.openExternal('C:/Miner/Stop.exe')
+                            sleep(300).then(() => {
+                                shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                            });
+                            window.close();
+                        });
+                    } else {
+                        if (document.getElementById('silent').checked == false) {
+                            var fs = require('fs');
+                            fs.writeFile("C:/Miner/Configs/nbr.cmd", "start C:\\Miner\\Miners\\xmr-stak\\xmr-stak --currency cryptonight_heavy -o stratum+tcp://" + document.getElementById('custpool').value + ":" + document.getElementById('custport').value + " -u " + document.getElementById('wallet').value + " -p " + document.getElementById('pass').value + " -i 8080 -c config.txt" + "\r\nexit", function(err) {
+                                if(err) {
+                                    return console.log(err);
+                                }
+                                const shell = require('electron').shell
+                                function sleep (time) {
+                                    return new Promise((resolve) => setTimeout(resolve, time));
+                                }
+                                shell.openExternal('C:/Miner/Stop.exe')
+                                sleep(300).then(() => {
+                                    shell.openExternal('C:/Miner/Configs/nbr.cmd')
+                                });
+                                window.close();
+                            });
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+      
+function walletdl() {
+  const shell = require('electron').shell
+    var fs = require('fs'),
+    filename = 'C:/Miner/Wallets/NBR/niobio.exe';
+    fs.exists(filename, function(exists) {
+        if (exists) {
+            shell.openExternal('C:/Miner/Wallets/NBR/niobio.exe')
+        } else {
+            shell.openExternal('C:/Miner/Wallets/CMD/nbr.bat')
+        }
+    });
+}
+</script>
+</form></font>
+</body></html>

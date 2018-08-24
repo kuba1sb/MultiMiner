@@ -1,0 +1,17 @@
+19:41:16:324	2164	Check and remove old log files...
+19:41:16:324	2164	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x 
+19:41:16:324	2164	
+19:41:16:324	2164	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:41:16:324	2164	บ                Claymore's Dual GPU Miner - v11.9               บ
+19:41:16:324	2164	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+19:41:16:324	2164	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:41:16:324	2164	
+19:41:16:324	2164	b597 
+19:41:16:543	2164	ETH: 1 pool is specified
+19:41:16:543	2164	Main Ethereum pool is us1.ethermine.org:4444
+19:41:16:543	2164	DCR: 0 pool is specified
+19:41:16:558	2164	OpenCL platform: Intel(R) OpenCL
+19:41:16:558	2164	AMD OpenCL platform not found 
+19:41:16:558	2164	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+19:41:16:558	2164	No NVIDIA CUDA GPUs detected.
+19:41:16:558	2164	No AMD OPENCL or NVIDIA CUDA GPUs found, exit

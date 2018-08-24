@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC>
+<html><head>
+<script src="./node_modules/chart.js/dist/Chart.bundle.js"></script>
+<script src="./node_modules/chart.js/samples/utils.js"></script>
+</head>
+<style>
+
+ul {   
+margin: 0;   
+padding: 0;   
+list-style: none;
+max-height: 200px; 
+background-color: #333;
+} 
+ul li {   
+display: block;   
+position: relative;   
+float: left;
+} 
+li ul { 
+display: none; 
+} 
+ul li a {   
+display: block;   
+text-decoration: none;   
+color: #ffffff;   
+border-top: 1px solid #333;
+border-right: 1px solid #333;
+padding: 4px 20px 4px 15px;   
+background: #333;   
+margin-left: 1px;    
+} 
+ul li a:hover { 
+background: #f9f9f9;
+color: #111111; 
+} 
+li:hover ul {   
+display: block;   
+position: absolute; 
+overflow: auto; 
+max-height: 500px;
+} 
+li:hover li {   
+float: none;   
+font-size: 11px; 
+} 
+li:hover a { 
+background: #f1f1f1;
+color: #111111; 
+} 
+li:hover li a:hover { 
+background: #f1f1f1; 
+color: #111111;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 5px; 
+}
+
+input[type=button] {
+    width: 6em;  height: 2em;
+}
+
+table.roundedCorners { 
+  border: 1px solid DarkOrange;
+  border-radius: 13px; 
+  border-spacing: 0;
+  }
+table.roundedCorners td, 
+table.roundedCorners th { 
+  border-bottom: 1px solid DarkOrange;
+  padding: 10px; 
+  }
+table.roundedCorners tr:last-child > td {
+  border-bottom: none;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: right;
+}
+
+canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+        fill: orange
+	}
+</style>
+<body bgcolor= "#333">
+<title>MultiMiner v3.1.0</title></head><body>
+<div style="width:665px;height:40px;border:1px solid DarkOrange; background-color: #212121">
+        <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+        <coingecko-coin-price-marquee-widget currency="usd" coin-ids="bitcoin,ethereum,litecoin,ripple" locale="en"></coingecko-coin-price-marquee-widget>
+</div>
+<br>
+<ul id="menu">
+  <li><a href="" style="width: 100"><div style="text-align: center"><font size="2">Coins to Mine</font></div></a>
+    <ul>
+    <li><a onclick="aarun()">2A Coin</a></li>
+    <li><a onclick="alloyrun()">Alloy</a></li>
+    <li><a onclick="arqrun()">ArQmA</a></li>
+    <li><a onclick="bitcoalrun()">BitCoal</a></li>
+	<li><a onclick="btcnrun()">Bitcoin-N</a></li>
+    <li><a onclick="bittuberun()">BitTube</a></li>
+    <li><a onclick="xatrun()">Catalyst</a></li>
+    <li><a onclick="ccxrun()">Conceal Network</a></li>
+    <li><a onclick="creprun()">Crep</a></li>
+	<li><a onclick="derorun()">Dero</a></li>
+    <li><a onclick="dcyrun()">Dinastycoin</a></li>
+    <li><a onclick="etnrun()">Electroneum</a></li>
+    <li><a onclick="etnxrun()">Electronero</a></li>
+	<li><a onclick="elyarun()">Elyacoin</a></li>
+    <li><a onclick="ethorun()">Ether-1</a></li>
+    <li><a onclick="esnrun()">Ether Social Network</a></li>
+    <li><a onclick="egemrun()">EtherGem</a></li>
+    <li><a onclick="ethrun()">Ethereum</a></li>
+    <li><a onclick="festrun()">Festival</a></li>
+    <li><a onclick="freelabitrun()">Freelabit</a></li>
+	<li><a onclick="grftrun()">Graft</a></li>
+    <li><a onclick="xhvrun()">Haven</a></li>
+    <li><a onclick="itnsrun()">Intense Coin</a></li>
+	<li><a onclick="irdrun()">Iridium</a></li>
+    <li><a onclick="krbrun()">Karbo</a></li>
+    <li><a onclick="linesrun()">Lines</a></li>
+	<li><a onclick="msrrun()">Masari</a></li>
+    <li><a onclick="xmrrun()">Monero</a></li>
+    <li><a onclick="mztrun()">Myztic</a></li>
+	<li><a onclick="nbrrun()">Niobio</a></li>
+    <li><a onclick="ombrun()">Ombre</a></li>
+    <li><a onclick="petrun()">Pet Coin</a></li>
+    <li><a onclick="pirlrun()">Pirl</a></li>
+    <li><a onclick="plerun()">Plenteum</a></li>
+	<li><a onclick="plurarun()">Pluracoin</a></li>
+    <li><a onclick="rvnrun()">Raven</a></li>
+    <li><a onclick="recoalrun()">ReCoal</a></li>
+    <li><a onclick="solacerun()">Solace</a></li>
+	<li><a onclick="xtlrun()">Stellite</a></li>
+    <li><a onclick="suprun()">Superior Coin</a></li>
+    <li><a onclick="trtlrun()">TurtleCoin</a></li>
+    <li><a onclick="tycherun()">Tychecash</a></li>
+    <li><a onclick="xunrun()">Ulranote</a></li>
+    <li><a onclick="xcarun()">X-Cash</a></li>
+	</ul>
+  </li>
+  <li><a href="" style="width: 100"><div style="text-align: center"><font size="2">Wallets</font></div></a>
+    <ul>
+    <li><a onclick="aawalletrun()">2A Coin</a></li>
+    <li><a onclick="alloywalletrun()">Alloy</a></li>
+    <li><a onclick="arqwalletrun()">ArQmA</a></li>
+    <li><a onclick="bitcoalwalletrun()">BitCoal</a></li>
+	<li><a onclick="btcnwalletrun()">Bitcoin-N</a></li>
+    <li><a onclick="bittubewalletrun()">BitTube</a></li>
+    <li><a onclick="xatwalletrun()">Catalyst</a></li>
+    <li><a onclick="ccxwalletrun()">Conceal Network</a></li>
+    <li><a onclick="crepwalletrun">Crep</a></li>
+	<li><a onclick="derowalletrun()">Dero</a></li>
+    <li><a onclick="dcywalletrun()">Dinastycoin</a></li>
+    <li><a onclick="etnwalletrun()">Electroneum</a></li>
+    <li><a onclick="etnxwalletrun()">Electronero</a></li>
+	<li><a onclick="elyawalletrun()">Elyacoin</a></li>
+    <li><a onclick="ethowalletrun()">Ether-1</a></li>
+    <li><a onclick="esnwalletrun()">Ether Social Network</a></li>
+    <li><a onclick="egemwalletrun()">EtherGem</a></li>
+    <li><a onclick="ethwalletrun()">Ethereum</a></li>
+    <li><a onclick="festwalletrun()">Festival</a></li>
+    <li><a onclick="freelabitwalletrun">Freelabit</a></li>
+	<li><a onclick="grftwalletrun()">Graft</a></li>
+    <li><a onclick="xhvwalletrun()">Haven</a></li>
+    <li><a onclick="itnswalletrun()">Intense Coin</a></li>
+	<li><a onclick="irdwalletrun()">Iridium</a></li>
+    <li><a onclick="krbwalletrun()">Karbo</a></li>
+    <li><a onclick="lineswalletrun()">Lines</a></li>
+	<li><a onclick="msrwalletrun()">Masari</a></li>
+    <li><a onclick="xmrwalletrun()">Monero</a></li>
+    <li><a onclick="mztwalletrun()">Myztic</a></li>
+	<li><a onclick="nbrwalletrun()">Niobio</a></li>
+    <li><a onclick="ombwalletrun()">Ombre</a></li>
+    <li><a onclick="petwalletrun()">Pet Coin</a></li>
+    <li><a onclick="pirlwalletrun()">Pirl</a></li>
+    <li><a onclick="plewalletrun()">Plenteum</a></li>
+	<li><a onclick="plurawalletrun()">Pluracoin</a></li>
+    <li><a onclick="rvnwalletrun()">Raven</a></li>
+    <li><a onclick="recoalwalletrun()">ReCoal</a></li>
+    <li><a onclick="solacewalletrun()">Solace</a></li>
+	<li><a onclick="xtlwalletrun()">Stellite</a></li>
+    <li><a onclick="supwalletrun()">Superior Coin</a></li>
+    <li><a onclick="trtlwalletrun()">TurtleCoin</a></li>
+    <li><a onclick="tychewalletrun()">Tychecash</a></li>
+    <li><a onclick="xunwalletrun()">Ulranote</a></li>
+    <li><a onclick="xcawalletrun()">X-Cash</a></li>
+    </ul>
+  </li>
+  <li><a href="" style="width: 100"><div style="text-align: center"><font size="2">Miner Config Files</font></div></a>
+    <ul>
+        <li><a onclick="amdconfig()">AMD Config&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a onclick="baseconfig()">Base Config&nbsp;</a></li>
+        <li><a onclick="cpuconfig()">CPU Config&nbsp;</a></li>
+        <li><a onclick="nvidiaconfig()">Nvidia Config</a></li>
+        <li><a onclick="poolsconfig()">Pools Config&nbsp;</a></li>
+    </ul>
+  </li>
+  <li><a href="" style="width: 100"><div style="text-align: center"><font size="2">Coin Config Files</font></div></a>
+    <ul>
+        <li><a onclick="aaconfig()">2A Coin</a></li>    
+        <li><a onclick="alloyconfig()">Alloy</a></li>
+        <li><a onclick="arqconfig()">ArQmA</a></li>
+        <li><a onclick="bitcoalconfig()">BitCoal</a></li>
+        <li><a onclick="btcnconfig()">Bitcoin-N</a></li>
+        <li><a onclick="bittubeconfig()">BitTube</a></li>
+        <li><a onclick="xatconfig()">Catalyst</a></li>
+        <li><a onclick="ccxconfig()">Conceal Network</a></li>
+        <li><a onclick="crepconfig()">Crep</a></li>
+        <li><a onclick="deroconfig()">Dero</a></li>
+        <li><a onclick="dcyconfig()">Dinastycoin</a></li>
+        <li><a onclick="etnconfig()">Electroneum</a></li>
+        <li><a onclick="etnxconfig()">Electronero</a></li>
+        <li><a onclick="elyaconfig()">Elyacoin</a></li>
+        <li><a onclick="ethoconfig()">Ether-1</a></li>
+        <li><a onclick="esnconfig()">Ether Social Network</a></li>
+        <li><a onclick="ethconfig()">Ethereum</a></li>
+        <li><a onclick="egemconfig()">EtherGem</a></li>
+        <li><a onclick="festconfig()">Festival Coin</a></li>
+        <li><a onclick="freelabitconfig()">Freelabit</a></li>
+        <li><a onclick="grftconfig()">Graft</a></li>
+        <li><a onclick="xhvconfig()">Haven</a></li>
+        <li><a onclick="itnsconfig()">Intense Coin</a></li>
+        <li><a onclick="irdconfig()">Iridium</a></li>
+        <li><a onclick="krbconfig()">Karbowanec</a></li>
+        <li><a onclick="linesconfig()">Lines</a></li>
+        <li><a onclick="msrconfig()">Masari</a></li>
+        <li><a onclick="xmrconfig()">Monero</a></li>
+        <li><a onclick="mztconfig()">Myztic</a></li>
+        <li><a onclick="nbrconfig()">Niobio</a></li>
+        <li><a onclick="ombconfig()">Ombre</a></li>
+        <li><a onclick="petconfig()">Pet Coin</a></li>
+        <li><a onclick="pirlconfig()">Pirl</a></li>
+        <li><a onclick="pleconfig()">Plenteum</a></li>
+        <li><a onclick="pluraconfig()">PluraCoin</a></li>
+        <li><a onclick="rvnconfig()">Raven</a></li>
+        <li><a onclick="solaceconfig()">Solace</a></li>
+        <li><a onclick="xtlconfig()">Stellite</a></li>
+        <li><a onclick="supconfig()">Superior Coin</a></li>
+        <li><a onclick="trtlconfig()">TurtleCoin</a></li>
+        <li><a onclick="tycheconfig()">TycheCash</a></li>
+        <li><a onclick="xunconfig()">UltraNote</a></li>
+        <li><a onclick="xcaconfig()">X-Cash</a></li>
+    </ul>
+  </li>
+  <li><a onclick="stop()" style="width: 80"><div style="text-align: center"><font color="DarkOrange">Stop Miner</font></div></a></li>
+</ul>
+<p id="miner"></p>
+<script src=mine.js></script>
+<script src=wallet.js></script>
+<script src=config.js></script>
+<br><br><br>
+<div align="center">
+<td>
+	<table class="roundedCorners" style="text-align: center; display: inline-block;" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+		<th></th>
+		<th style="text-align: center;"><font color="white">Featured Coins</font></th>
+		<th></th>
+	  </tr>
+	  <tr>
+      	<form>
+		<td> <input type="button" onclick="xatrun()" name="feat1" value="Catalyst"><br></td>
+        <td> <input type="button" onclick="ethorun()" name="feat2" value="Ether-1"><br></td>
+        <td> <input type="button" onclick="festrun()" name="feat3" value="Festival"><br></td>
+      </tr>
+</tbody></table>
+<td>
+	<table class="roundedCorners" style="text-align: center; display: inline-block;" border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+      <tr>
+		<th></th>
+		<th style="text-align: center;"><font color="white">New Coins</font></th>
+		<th></th>
+	  </tr>
+	  <tr>
+      	<form>
+		<td> <input type="button" onclick="arqrun()" name="new1" value="ArQmA"><br></td>
+        <td> <input type="button" onclick="esnrun()" name="new2" value="ESN"><br></td>
+        <td> <input type="button" onclick="alert('                              Your Coin Could Be Here! \n           Contact us at info@multiminer.us to find out how!');" name="new3" style="font-size: 10px; width: 100%; height: 26px;" value="Your Coin Here!"><br></td>
+	  </tr>
+</tbody></table><br><br>
+<div align="center">
+<td>
+	<table class="roundedCorners" style="text-align: center; width: 600px; height: 80px;" border="0" cellpadding="0" cellspacing="0">
+	<col width="0">
+	<col width="200">
+    <col width="0">
+    <col width="0">
+    <tbody>
+      <tr>
+		<th style="text-align: center;"><font size="2" color= "#ffffff">Hashrate</font></th>
+		<th style="text-align: center;"><font size="2" color= "#ffffff">Pool</font></th>
+		<th style="text-align: center;"><font size="2" color= "#ffffff">Uptime</font></th>
+        <th style="text-align: center;"><font size="2" color= "#ffffff">Shares<br>Good/Total</font></th>
+      </tr>
+	  <tr>
+		<td style="text-align: center;"><font size="2" color= "#ffffff"><p id="hash"></p></font></td>
+		<td style="text-align: center;"><font size="2" color= "#ffffff"><p id="pool"></p></font></td>
+        <td style="text-align: center;"><font size="2" color= "#ffffff"><p id="uptime"></p></font></td>
+        <td style="text-align: center;"><font size="2" color= "#ffffff"><p id="error"></p></font></td>
+	  </tr></tbody></table></td></div></div><br><br>
+<center><div style="width: 88%;">
+<canvas id="hashchart"></canvas>
+</div></center>
+<script>
+var canvas = document.getElementById('hashchart');
+var myLineChart = Chart.Line(canvas,{
+type: 'line',
+data:{
+labels: ["0","10","20","30","40","50","60","70","80","90","100","110","120","130","140","150","160","170","180","190","200","210","220","230","240","250","260","270","280","290"],
+datasets: [
+    {
+        label: "Hashrate", 
+        data: [0],
+        borderColor: "orange",
+		borderWidth: 1,
+		lineColor: "orange", 
+		}
+		
+    ]
+},
+        options: {
+            responsive: true,
+            title: {
+                display: false,
+                text: 'Hashrate'
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'nearest',
+                intersect: true
+            },
+            scales: {
+                xAxes: [{
+                    display: false,
+					scaleLabel: {
+                        display: true,
+                        labelString: 'Time'
+                    }
+                }],
+                yAxes: [{
+					display: true,
+					ticks: {
+                        beginAtZero: true
+                    },
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Hashrate'
+                    }
+                }]
+            }
+        }
+    });
+    window.onload = function() {
+        var ctx = document.getElementById('hashchart').getContext('2d');
+        window.myLine = new Chart(ctx, config);
+    };
+        window.myLine.update();
+</script>
+<script>
+function stats(){
+var i=0;
+	var getJSON = function(url, callback) {
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', url, true);
+		xhr.responseType = 'json';
+		xhr.onload = function() {
+		var status = xhr.status;
+		if (status === 200) {
+			callback(null, xhr.response);
+		} else {
+			callback(status, xhr.response);
+		}
+		};
+		xhr.send();
+	};
+	getJSON('http://localhost:8080/api.json',
+	function(err, datahr) {
+	if (err !== null) {
+		alert('Something went wrong: ' + err);
+	} else {
+	document.getElementById("hash").innerHTML = (datahr.hashrate.total[0] / 1000).toFixed(2) + " kh/s";
+	document.getElementById("pool").innerHTML = datahr.connection.pool;
+	document.getElementById("uptime").innerHTML = (datahr.connection.uptime / 60).toFixed(0) + " min";
+    document.getElementById("error").innerHTML = datahr.results.shares_good + "/" + datahr.results.shares_total;
+    if(myLineChart.data.datasets[0].data.length > 30){
+        myLineChart.data.datasets[0].data.shift();
+    }
+    myLineChart.data.datasets[0].data.push(datahr.hashrate.total[0]);
+    myLineChart.update();
+    }
+	});
+	setTimeout(stats, 5000);
+	document.getElementById("hash").innerHTML = "0 kh/s";
+	document.getElementById("pool").innerHTML = "...";
+    document.getElementById("uptime").innerHTML = "0 min";
+    document.getElementById("error").innerHTML = "...";
+    }
+
+
+stats();
+</script>
+<script>
+const axios = require('axios')
+var price = document.getElementById("btc")
+function getBTC(){
+	axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC&tsyms=USD')
+		.then(res => {
+			const cryptos = res.data.BTC.USD
+			price.innerHTML = '$' + cryptos.toLocaleString('en') 
+	})
+}
+getBTC()
+setInterval(getBTC, 30000);
+</script>
+
+<script>
+function stop(){
+    const shell = require('electron').shell
+    shell.openExternal('C:/Miner/Stop.exe')
+  }
+
+</script>
+
+<div class="footer">
+Developed by pjrudd&nbsp;&nbsp;&nbsp;<br>
+Brought to you by <a href="https://multiminer.us"><font color="DarkOrange">MultiMiner.us</font></a>&nbsp;&nbsp;&nbsp;</div>
+</body></html>

@@ -1,0 +1,109 @@
+20:28:34:775	2358	Check and remove old log files...
+20:28:34:930	2358	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x -tt 5 -tstop -93 -allpools 1 -allcoins 1 -dcri 29 -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal pjrudd.Miner2 -dpsw x -mport 0 
+20:28:34:951	2358	
+20:28:35:002	2358	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:28:35:018	2358	บ                Claymore's Dual GPU Miner - v11.9               บ
+20:28:35:019	2358	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+20:28:35:020	2358	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:28:35:024	2358	
+20:28:35:025	2358	b597 
+20:28:35:418	2358	ETH: 1 pool is specified
+20:28:35:606	2358	Main Ethereum pool is us1.ethermine.org:4444
+20:28:35:912	2358	DCR: 1 pool is specified
+20:28:36:002	2358	Main Decred pool is dcr.suprnova.cc:3252
+20:28:46:593	2358	OpenCL platform: Intel(R) OpenCL
+20:28:46:595	2358	OpenCL platform: AMD Accelerated Parallel Processing
+20:28:46:602	2358	OpenCL initializing...
+
+20:28:46:602	2358	AMD Cards available: 6 
+20:28:46:604	2358	GPU #0: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 1:0:0)
+20:28:46:604	2358	GPU #0 recognized as Radeon RX 480/580
+20:28:46:605	2358	GPU #1: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 2:0:0)
+20:28:46:605	2358	GPU #1 recognized as Radeon RX 550
+20:28:46:605	2358	GPU #2: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 4:0:0)
+20:28:46:605	2358	GPU #2 recognized as Radeon RX 550
+20:28:46:605	2358	GPU #3: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 5:0:0)
+20:28:46:605	2358	GPU #3 recognized as Radeon RX 550
+20:28:46:605	2358	GPU #4: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 6:0:0)
+20:28:46:606	2358	GPU #4 recognized as Radeon RX 550
+20:28:46:607	2358	GPU #5: Baffin (Radeon RX 560 Series), 4096 MB available, 16 compute units (pci bus 7:0:0)
+20:28:46:607	2358	GPU #5 recognized as Radeon RX 460/560
+20:28:46:607	2358	POOL/SOLO version
+20:28:46:607	2358	Platform: Windows
+20:28:46:670	2358	start building OpenCL program for GPU 0...
+20:28:47:147	2358	done
+20:28:47:350	2358	start building OpenCL program for GPU 1...
+20:28:47:533	2358	done
+20:28:47:736	2358	start building OpenCL program for GPU 2...
+20:28:47:924	2358	done
+20:28:48:128	2358	start building OpenCL program for GPU 3...
+20:28:48:310	2358	done
+20:28:48:513	2358	start building OpenCL program for GPU 4...
+20:28:48:698	2358	done
+20:28:48:901	2358	start building OpenCL program for GPU 5...
+20:28:49:085	2358	done
+20:28:49:314	2358	GPU #0: algorithm ASM 1
+20:28:49:342	2358	GPU #1: algorithm ASM 1
+20:28:49:372	2358	GPU #2: algorithm ASM 1
+20:28:49:401	2358	GPU #3: algorithm ASM 1
+20:28:49:430	2358	GPU #4: algorithm ASM 1
+20:28:49:461	2358	GPU #5: algorithm ASM 1
+20:28:49:463	2358	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+20:28:49:463	2358	No NVIDIA CUDA GPUs detected.
+20:28:49:463	2358	Total cards: 6 
+20:28:49:464	2358	
+Some GPUs (4) are 2GB and some (2) are not, developer fee will not be mined on 2GB GPUs, so devfee will be mined on 2 cards of 6.
+See Readme for details.
+
+20:28:49:464	2358	No NVIDIA cards in the list, NVML library will not be used.
+20:28:50:525	2358	SSL: Imported 31 certificates from local storage
+20:28:50:626	2358	DUAL MINING MODE ENABLED: ETHEREUM+DECRED
+20:28:50:626	2358	ETH: eth-proxy stratum mode
+20:28:50:627	2358	"-allpools" option is set, default pools can be used for devfee, check "Readme" file for details.
+20:28:50:627	2358	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+20:28:50:627	2358	Watchdog enabled
+20:28:50:627	2358	
+20:28:50:631	20cc	 DCR: Stratum - connecting to 'dcr.suprnova.cc' <149.202.215.198> port 3252 (unsecure)
+20:28:50:631	d48	ETH: Stratum - connecting to 'us1.ethermine.org' <18.191.218.23> port 4444 (unsecure)
+20:28:50:697	d48	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2", "x"], "id": 2, "method": "eth_submitLogin"}
+
+20:28:50:698	d48	ETH: Stratum - Connected (us1.ethermine.org:4444) (unsecure)
+20:28:50:755	20cc	sent: {"id": 1, "method": "mining.subscribe", "params": ["dual 1.0"]}
+
+20:28:50:755	20cc	sent: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+20:28:50:755	20cc	sent: {"id": 2, "method": "mining.authorize", "params": ["pjrudd.Miner2","x"]}
+
+20:28:50:755	20cc	 DCR: Stratum - Connected (dcr.suprnova.cc:3252) (unsecure)
+20:28:50:760	d48	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+20:28:50:761	d48	ETH: Authorized
+20:28:50:761	d48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:28:50:823	d48	buf: {"id":3,"jsonrpc":"2.0","result":["0x59c39d8b2b727692b9b19cb3b076c9ad896c41c2a22531d249d10ece00cdcdfc","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1b47"]}
+
+20:28:50:880	20cc	buf: {"id":1,"result":[[["mining.notify","deadbeefcafebabe06374d0000000000"]],"7da75078095271e54dc980ce",12],"error":null}
+{"id":null,"method":"mining.set_difficulty","params":[128]}
+{"id":null,"method":"mining.notify","params":["c0c","3339712414753d173933fd3220d2be808a4192d6450b8c4e0000000000000000","827c50e648f8b2222df96bce9177d5441df4a69ffad6849456ecf856f27f4d9cc7f9311f7feecd83a6d7f8d90e5df32193ad1c2aa2588738243d0113ab404d36010055c5868cfa9405000300909f0000bc3501190aad5e1f02000000f8f70300990e000038675a5b0000000000000000","05000000",[],"05000000","190135bc","5b5a6738",false]}
+
+20:28:50:880	20cc	remove first packet 461
+20:28:50:880	20cc	remove first packet 401
+20:28:50:900	20cc	buf: {"id":2,"result":true,"error":null}
+
+20:28:50:900	20cc	 DCR: Authorized
+20:28:50:906	1fcc	Setting DAG epoch #201...
+20:28:52:643	1fcc	Setting DAG epoch #201 for GPU2
+20:28:52:643	4dc	Setting DAG epoch #201 for GPU4
+20:28:52:643	150c	Setting DAG epoch #201 for GPU0
+20:28:52:643	1bb8	Setting DAG epoch #201 for GPU3
+20:28:52:643	2374	Setting DAG epoch #201 for GPU1
+20:28:52:643	1de4	Setting DAG epoch #201 for GPU5
+20:28:52:659	1de4	Create GPU buffer for GPU5
+20:28:52:643	150c	Create GPU buffer for GPU0
+20:28:52:643	1fcc	Create GPU buffer for GPU2
+20:28:52:659	4dc	Create GPU buffer for GPU4
+20:28:52:659	2374	Create GPU buffer for GPU1
+20:28:52:659	1bb8	Create GPU buffer for GPU3
+20:28:56:347	2358	Quit, please wait...
+20:29:00:600	150c	GPU0 DAG creation time - 7753 ms
+20:29:00:890	150c	Setting DAG epoch #201 for GPU0 done

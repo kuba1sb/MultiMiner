@@ -1,0 +1,295 @@
+19:25:48:392	15e4	Check and remove old log files...
+19:25:48:393	15e4	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x -cclock 1230 -mclock2250 -cvddc 905 -mvddc 850 -ttli75 -tt 69 -tstop -78 -tstart 45 -allpools 1 -allcoins 1 -dcri 29 -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal pjrudd.Miner2 -dpsw x -mport 0 
+19:25:48:393	15e4	
+19:25:48:394	15e4	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:25:48:394	15e4	บ                Claymore's Dual GPU Miner - v11.9               บ
+19:25:48:395	15e4	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+19:25:48:395	15e4	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:25:48:395	15e4	
+19:25:48:395	15e4	b597 
+19:25:48:596	15e4	ETH: 1 pool is specified
+19:25:48:597	15e4	Main Ethereum pool is us1.ethermine.org:4444
+19:25:48:600	15e4	DCR: 1 pool is specified
+19:25:48:600	15e4	Main Decred pool is dcr.suprnova.cc:3252
+19:25:49:265	15e4	OpenCL platform: Intel(R) OpenCL
+19:25:49:265	15e4	OpenCL platform: AMD Accelerated Parallel Processing
+19:25:49:266	15e4	OpenCL initializing...
+
+19:25:49:267	15e4	AMD Cards available: 6 
+19:25:49:267	15e4	GPU #0: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 1:0:0)
+19:25:49:267	15e4	GPU #0 recognized as Radeon RX 480/580
+19:25:49:267	15e4	GPU #1: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 2:0:0)
+19:25:49:267	15e4	GPU #1 recognized as Radeon RX 550
+19:25:49:268	15e4	GPU #2: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 4:0:0)
+19:25:49:268	15e4	GPU #2 recognized as Radeon RX 550
+19:25:49:269	15e4	GPU #3: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 5:0:0)
+19:25:49:269	15e4	GPU #3 recognized as Radeon RX 550
+19:25:49:269	15e4	GPU #4: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 6:0:0)
+19:25:49:269	15e4	GPU #4 recognized as Radeon RX 550
+19:25:49:269	15e4	GPU #5: Baffin (Radeon RX 560 Series), 4096 MB available, 16 compute units (pci bus 7:0:0)
+19:25:49:269	15e4	GPU #5 recognized as Radeon RX 460/560
+19:25:49:270	15e4	POOL/SOLO version
+19:25:49:270	15e4	Platform: Windows
+19:25:49:336	15e4	Failed to set new effective memory clock for GPU #2
+19:25:49:388	15e4	start building OpenCL program for GPU 0...
+19:25:49:831	15e4	done
+19:25:50:035	15e4	start building OpenCL program for GPU 1...
+19:25:50:225	15e4	done
+19:25:50:434	15e4	start building OpenCL program for GPU 2...
+19:25:50:663	15e4	done
+19:25:50:865	15e4	start building OpenCL program for GPU 3...
+19:25:51:099	15e4	done
+19:25:51:332	15e4	start building OpenCL program for GPU 4...
+19:25:51:520	15e4	done
+19:25:51:723	15e4	start building OpenCL program for GPU 5...
+19:25:51:914	15e4	done
+19:25:52:146	15e4	GPU #0: algorithm ASM 1
+19:25:52:177	15e4	GPU #1: algorithm ASM 1
+19:25:52:210	15e4	GPU #2: algorithm ASM 1
+19:25:52:242	15e4	GPU #3: algorithm ASM 1
+19:25:52:272	15e4	GPU #4: algorithm ASM 1
+19:25:52:307	15e4	GPU #5: algorithm ASM 1
+19:25:52:313	15e4	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+19:25:52:313	15e4	No NVIDIA CUDA GPUs detected.
+19:25:52:313	15e4	Total cards: 6 
+19:25:52:314	15e4	
+Some GPUs (4) are 2GB and some (2) are not, developer fee will not be mined on 2GB GPUs, so devfee will be mined on 2 cards of 6.
+See Readme for details.
+
+19:25:53:917	15e4	No NVIDIA cards in the list, NVML library will not be used.
+19:25:53:932	15e4	Failed to set new effective memory clock for GPU #2
+19:25:54:606	1fb8	GPU 0 temp = 50, old fan speed = 0, new fan speed = 53 
+19:25:54:612	1fb8	GPU 1 temp = 47, old fan speed = 0, new fan speed = 46 
+19:25:54:619	1fb8	GPU 2 temp = 43, old fan speed = 45, new fan speed = 59 
+19:25:54:622	1fb8	Failed to set new effective memory clock for GPU #2
+19:25:54:623	1fb8	GPU 3 temp = 47, old fan speed = 0, new fan speed = 46 
+19:25:54:629	1fb8	GPU 4 temp = 49, old fan speed = 31, new fan speed = 47 
+19:25:54:635	1fb8	GPU 5 temp = 57, old fan speed = 0, new fan speed = 95 
+19:25:55:020	15e4	SSL: Imported 31 certificates from local storage
+19:25:55:053	20bc	ETH: Stratum - connecting to 'us1.ethermine.org' <18.191.181.105> port 4444 (unsecure)
+19:25:55:117	20bc	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2", "x"], "id": 2, "method": "eth_submitLogin"}
+
+19:25:55:117	20bc	ETH: Stratum - Connected (us1.ethermine.org:4444) (unsecure)
+19:25:55:121	15e4	DUAL MINING MODE ENABLED: ETHEREUM+DECRED
+19:25:55:121	15e4	ETH: eth-proxy stratum mode
+19:25:55:122	23c8	 DCR: Stratum - connecting to 'dcr.suprnova.cc' <149.202.215.198> port 3252 (unsecure)
+19:25:55:121	15e4	"-allpools" option is set, default pools can be used for devfee, check "Readme" file for details.
+19:25:55:122	15e4	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+19:25:55:122	15e4	Watchdog enabled
+19:25:55:122	15e4	
+19:25:55:170	20bc	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+19:25:55:170	20bc	ETH: Authorized
+19:25:55:171	20bc	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:25:55:226	20bc	buf: {"id":3,"jsonrpc":"2.0","result":["0xb2ed3ba335483350c43ab833efbd915d8471cd7675ec74ad22441cececc2667f","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a3f"]}
+
+19:25:55:237	23c8	sent: {"id": 1, "method": "mining.subscribe", "params": ["dual 1.0"]}
+
+19:25:55:237	23c8	sent: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+19:25:55:237	23c8	sent: {"id": 2, "method": "mining.authorize", "params": ["pjrudd.Miner2","x"]}
+
+19:25:55:237	23c8	 DCR: Stratum - Connected (dcr.suprnova.cc:3252) (unsecure)
+19:25:55:257	2348	Setting DAG epoch #201...
+19:25:55:381	23c8	buf: {"id":1,"result":[[["mining.notify","deadbeefcafebabe55784f0000000000"]],"ef86f80300daceee10d12557",12],"error":null}
+{"id":null,"method":"mining.set_difficulty","params":[128]}
+{"id":null,"method":"mining.notify","params":["ffa","25623723cec5c0a459dab217e09ca5ddb7eb397ddbc27cfc0000000000000000","1bb627e14f72784f3c36456ac27609ec367b2f2951cf0d4015d4660ff1f5c287a74164a29793744e10940cf61025aac732bb5f138833e3a4caf65347610146780100339761f53faf05000b00a19f0000bc3501190aad5e1f02000000e9f703005936000078585a5b0000000000000000","05000000",[],"05000000","190135bc","5b5a5878",false]}
+
+19:25:55:381	23c8	remove first packet 461
+19:25:55:381	23c8	remove first packet 401
+19:25:55:389	23c8	buf: {"id":2,"result":true,"error":null}
+
+19:25:55:389	23c8	 DCR: Authorized
+19:25:57:148	21a4	Setting DAG epoch #201 for GPU2
+19:25:57:148	4e4	Setting DAG epoch #201 for GPU3
+19:25:57:148	1124	Setting DAG epoch #201 for GPU1
+19:25:57:148	2338	Setting DAG epoch #201 for GPU0
+19:25:57:148	2348	Setting DAG epoch #201 for GPU5
+19:25:57:148	21a4	Create GPU buffer for GPU2
+19:25:57:148	4e4	Create GPU buffer for GPU3
+19:25:57:148	2338	Create GPU buffer for GPU0
+19:25:57:148	2348	Create GPU buffer for GPU5
+19:25:57:148	1afc	Setting DAG epoch #201 for GPU4
+19:25:57:148	1afc	Create GPU buffer for GPU4
+19:25:57:148	1124	Create GPU buffer for GPU1
+19:25:57:642	1fb8	GPU 0 temp = 53, old fan speed = 0, new fan speed = 46 
+19:25:57:650	1fb8	GPU 1 temp = 47, old fan speed = 0, new fan speed = 36 
+19:25:57:656	1fb8	GPU 2 temp = 43, old fan speed = 77, new fan speed = 47 
+19:25:57:661	1fb8	Failed to set new effective memory clock for GPU #2
+19:25:57:661	1fb8	GPU 3 temp = 47, old fan speed = 0, new fan speed = 36 
+19:25:57:668	1fb8	GPU 4 temp = 50, old fan speed = 48, new fan speed = 38 
+19:25:57:674	1fb8	GPU 5 temp = 59, old fan speed = 0, new fan speed = 91 
+19:26:00:907	1fb8	GPU 0 temp = 55, old fan speed = 0, new fan speed = 40 
+19:26:01:328	1fb8	GPU 1 temp = 49, old fan speed = 33, new fan speed = 27 
+19:26:01:429	1fb8	GPU 2 temp = 39, old fan speed = 64, new fan speed = 33 
+19:26:01:505	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:01:513	1fb8	GPU 3 temp = 45, old fan speed = 25, new fan speed = 25 
+19:26:01:523	1fb8	GPU 4 temp = 47, old fan speed = 42, new fan speed = 28 
+19:26:01:536	1fb8	GPU 5 temp = 62, old fan speed = 96, new fan speed = 88 
+19:26:04:088	2338	GPU0 DAG creation time - 6779 ms
+19:26:04:310	2338	Setting DAG epoch #201 for GPU0 done
+19:26:04:651	1fb8	GPU 0 temp = 55, old fan speed = 30, new fan speed = 34 
+19:26:04:866	1fb8	GPU 1 temp = 50, old fan speed = 28, new fan speed = 25 
+19:26:05:269	20bc	ETH: checking pool connection...
+19:26:05:336	1fb8	GPU 2 temp = 38, old fan speed = 50, new fan speed = 25 
+19:26:05:336	20bc	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:26:05:394	20bc	buf: {"id":3,"jsonrpc":"2.0","result":["0xb2ed3ba335483350c43ab833efbd915d8471cd7675ec74ad22441cececc2667f","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a3f"]}
+
+19:26:05:405	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:05:409	1fb8	GPU 3 temp = 48, old fan speed = 10, new fan speed = 25 
+19:26:05:609	1fb8	GPU 4 temp = 47, old fan speed = 32, new fan speed = 25 
+19:26:05:843	1fb8	GPU 5 temp = 63, old fan speed = 94, new fan speed = 86 
+19:26:09:323	1fb8	GPU 0 temp = 58, old fan speed = 21, new fan speed = 29 
+19:26:09:424	1fb8	GPU 1 temp = 51, old fan speed = 25, new fan speed = 25 
+19:26:09:434	1fb8	GPU 2 temp = 38, old fan speed = 38, new fan speed = 25 
+19:26:09:505	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:09:691	1fb8	GPU 3 temp = 52, old fan speed = 1, new fan speed = 25 
+19:26:09:766	1fb8	GPU 4 temp = 46, old fan speed = 28, new fan speed = 25 
+19:26:09:780	1fb8	GPU 5 temp = 62, old fan speed = 92, new fan speed = 83 
+19:26:10:807	2348	GPU5 DAG creation time - 13493 ms
+19:26:10:877	2348	Setting DAG epoch #201 for GPU5 done
+19:26:13:173	1fb8	GPU 0 temp = 59, old fan speed = 21, new fan speed = 25 
+19:26:13:613	1fb8	GPU 1 temp = 52, old fan speed = 25, new fan speed = 25 
+19:26:13:662	1fb8	GPU 2 temp = 39, old fan speed = 38, new fan speed = 25 
+19:26:13:729	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:13:901	20bc	buf: {"id":0,"jsonrpc":"2.0","result":["0x130968a945f33cad8be2b535ca7a3bd7a6fc7c0336f125524e4b0d60cadbc600","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a40"]}
+
+19:26:14:331	1fb8	GPU 3 temp = 51, old fan speed = 11, new fan speed = 25 
+19:26:14:364	20bc	ETH: 07/26/18-19:26:14 - New job from us1.ethermine.org:4444
+19:26:14:445	20bc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:26:14:531	20bc	ETH - Total Speed: 13.175 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:26:14:592	1fb8	GPU 4 temp = 46, old fan speed = 27, new fan speed = 25 
+19:26:14:598	20bc	ETH: GPU0 11.912 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 1.263 Mh/s
+19:26:14:612	20bc	 DCR - Total Speed: 345.457 Mh/s, Total Shares: 0, Rejected: 0
+19:26:14:614	1fb8	GPU 5 temp = 58, old fan speed = 90, new fan speed = 78 
+19:26:14:622	20bc	 DCR: GPU0 345.457 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+19:26:15:264	20bc	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xc909aa", "0x00000000000000000000000000000000000000000000000000000000e624b445"]}
+
+19:26:15:351	20bc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:26:15:380	20bc	ETH: checking pool connection...
+19:26:15:389	20bc	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:26:15:548	20bc	buf: {"id":3,"jsonrpc":"2.0","result":["0x130968a945f33cad8be2b535ca7a3bd7a6fc7c0336f125524e4b0d60cadbc600","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a40"]}
+
+19:26:17:809	1fb8	GPU 0 temp = 64, old fan speed = 21, new fan speed = 25 
+19:26:18:326	1fb8	GPU 1 temp = 51, old fan speed = 25, new fan speed = 25 
+19:26:18:868	1fb8	GPU 2 temp = 39, old fan speed = 38, new fan speed = 25 
+19:26:18:937	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:18:955	1fb8	GPU 3 temp = 52, old fan speed = 12, new fan speed = 25 
+19:26:18:968	1fb8	GPU 4 temp = 45, old fan speed = 27, new fan speed = 25 
+19:26:19:151	1fb8	GPU 5 temp = 61, old fan speed = 86, new fan speed = 75 
+19:26:20:199	1124	GPU1 DAG creation time - 22820 ms
+19:26:20:329	1124	Setting DAG epoch #201 for GPU1 done
+19:26:20:336	20bc	buf: {"id":0,"jsonrpc":"2.0","result":["0x064dcd1fa3b480e7d53ae81af57be2aee453c9ef0179c7cbe20d15797fa6a50e","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a41"]}
+
+19:26:20:533	20bc	ETH: 07/26/18-19:26:20 - New job from us1.ethermine.org:4444
+19:26:20:913	20bc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:26:20:986	20bc	ETH - Total Speed: 16.065 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:26:21:045	20bc	ETH: GPU0 11.070 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 4.995 Mh/s
+19:26:21:069	20bc	 DCR - Total Speed: 465.885 Mh/s, Total Shares: 0, Rejected: 0
+19:26:21:078	20bc	 DCR: GPU0 321.037 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 144.848 Mh/s
+19:26:21:079	121c	em hbt: 750, dm hbt: 0, fm hbt: 62, 
+19:26:21:080	121c	watchdog - thread 0 (gpu0), hb time 156
+19:26:21:080	121c	watchdog - thread 1 (gpu0), hb time 156
+19:26:21:080	121c	watchdog - thread 2 (gpu1), hb time 687
+19:26:21:080	121c	watchdog - thread 3 (gpu1), hb time 687
+19:26:21:080	121c	watchdog - thread 4 (gpu2), hb time 687
+19:26:21:080	121c	watchdog - thread 5 (gpu2), hb time 687
+19:26:21:081	121c	watchdog - thread 6 (gpu3), hb time 687
+19:26:21:081	121c	watchdog - thread 7 (gpu3), hb time 687
+19:26:21:081	121c	watchdog - thread 8 (gpu4), hb time 687
+19:26:21:081	121c	watchdog - thread 9 (gpu4), hb time 687
+19:26:21:081	121c	watchdog - thread 10 (gpu5), hb time 687
+19:26:21:081	121c	watchdog - thread 11 (gpu5), hb time 687
+19:26:22:899	1fb8	GPU 0 temp = 68, old fan speed = 21, new fan speed = 25 
+19:26:23:569	1fb8	GPU 1 temp = 50, old fan speed = 25, new fan speed = 25 
+19:26:23:607	1fb8	GPU 2 temp = 39, old fan speed = 38, new fan speed = 25 
+19:26:23:626	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:23:629	1fb8	GPU 3 temp = 54, old fan speed = 8, new fan speed = 25 
+19:26:23:640	1fb8	GPU 4 temp = 45, old fan speed = 27, new fan speed = 25 
+19:26:23:650	1fb8	GPU 5 temp = 60, old fan speed = 84, new fan speed = 71 
+19:26:24:199	4e4	GPU3 DAG creation time - 26856 ms
+19:26:24:256	4e4	Setting DAG epoch #201 for GPU3 done
+19:26:25:037	20bc	buf: {"id":0,"jsonrpc":"2.0","result":["0x68a3125ea5dc22c598f81924f8b6cf57a071c13a6569acbdfa1248f2bf80cb64","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a42"]}
+
+19:26:25:085	20bc	ETH: 07/26/18-19:26:25 - New job from us1.ethermine.org:4444
+19:26:25:086	20bc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:26:25:088	20bc	ETH - Total Speed: 19.856 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:26:25:089	20bc	ETH: GPU0 14.950 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 4.906 Mh/s
+19:26:25:089	20bc	 DCR - Total Speed: 575.837 Mh/s, Total Shares: 0, Rejected: 0
+19:26:25:089	20bc	 DCR: GPU0 433.554 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 142.283 Mh/s
+19:26:25:397	20bc	ETH: checking pool connection...
+19:26:25:400	20bc	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:26:25:478	20bc	buf: {"id":3,"jsonrpc":"2.0","result":["0x68a3125ea5dc22c598f81924f8b6cf57a071c13a6569acbdfa1248f2bf80cb64","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a42"]}
+
+19:26:25:839	2348	checked ETH share on CPU, spent 4635ms
+19:26:25:842	2348	sent: {"id":15,"method":"eth_submitWork","params":["0xbce10bc801396821","0x130968a945f33cad8be2b535ca7a3bd7a6fc7c0336f125524e4b0d60cadbc600","0x9ec9744432e82266959d622757c72430dfcfb5ec8f4eb7aca91c311c9e2946de"]}
+
+19:26:25:844	2348	ETH: put share nonce bce10bc801396821
+19:26:25:855	20bc	ETH: 07/26/18-19:26:25 - SHARE FOUND - (GPU 5)
+19:26:25:886	20bc	buf: {"id":15,"jsonrpc":"2.0","result":true}
+
+19:26:25:886	20bc	ETH: Share accepted (47 ms)!
+19:26:27:299	1fb8	GPU 0 temp = 71, old fan speed = 21, new fan speed = 28 
+19:26:27:325	1fb8	GPU 1 temp = 50, old fan speed = 25, new fan speed = 25 
+19:26:27:393	1fb8	GPU 2 temp = 40, old fan speed = 38, new fan speed = 25 
+19:26:27:396	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:27:397	1fb8	GPU 3 temp = 52, old fan speed = 3, new fan speed = 25 
+19:26:27:404	1fb8	GPU 4 temp = 45, old fan speed = 27, new fan speed = 25 
+19:26:27:411	1fb8	GPU 5 temp = 63, old fan speed = 81, new fan speed = 69 
+19:26:27:418	1fb8	GPU0 t=71C fan=21%, GPU1 t=50C fan=25%, GPU2 t=40C fan=38%, GPU3 t=52C fan=3%, GPU4 t=45C fan=27%, GPU5 t=63C fan=81%
+19:26:29:436	20bc	buf: {"id":0,"jsonrpc":"2.0","result":["0xc98c1511498de59bd354ea2cd51a9e3dd36028f414e60f28618f015835e03b18","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a43"]}
+
+19:26:29:493	20bc	ETH: 07/26/18-19:26:29 - New job from us1.ethermine.org:4444
+19:26:29:493	20bc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:26:29:509	20bc	ETH - Total Speed: 26.112 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+19:26:29:511	20bc	ETH: GPU0 16.478 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 9.634 Mh/s
+19:26:29:513	20bc	 DCR - Total Speed: 757.239 Mh/s, Total Shares: 0, Rejected: 0
+19:26:29:513	20bc	 DCR: GPU0 477.857 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 279.382 Mh/s
+19:26:29:981	20bc	buf: {"id":0,"jsonrpc":"2.0","result":["0xcd2652b10e65a14d5e10959ceaa1f8ab90637489fc946ee57ee5562ac56b04c5","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a43"]}
+
+19:26:30:018	20bc	ETH: 07/26/18-19:26:30 - New job from us1.ethermine.org:4444
+19:26:30:089	20bc	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:26:30:091	20bc	ETH - Total Speed: 21.184 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+19:26:30:092	20bc	ETH: GPU0 16.478 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 4.706 Mh/s
+19:26:30:093	20bc	 DCR - Total Speed: 614.336 Mh/s, Total Shares: 0, Rejected: 0
+19:26:30:093	20bc	 DCR: GPU0 477.857 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 136.479 Mh/s
+19:26:30:672	1fb8	GPU 0 temp = 72, old fan speed = 21, new fan speed = 32 
+19:26:31:731	1fb8	GPU 1 temp = 50, old fan speed = 25, new fan speed = 25 
+19:26:31:763	1fb8	GPU 2 temp = 40, old fan speed = 38, new fan speed = 25 
+19:26:31:777	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:31:778	1fb8	GPU 3 temp = 49, old fan speed = 23, new fan speed = 25 
+19:26:31:785	1fb8	GPU 4 temp = 45, old fan speed = 27, new fan speed = 25 
+19:26:31:796	1fb8	GPU 5 temp = 60, old fan speed = 80, new fan speed = 65 
+19:26:35:217	1fb8	GPU 0 temp = 70, old fan speed = 21, new fan speed = 34 
+19:26:35:620	20bc	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1087808", "0x00000000000000000000000000000000000000000000000000000000e624b445"]}
+
+19:26:35:815	20bc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:26:36:658	20bc	ETH: checking pool connection...
+19:26:36:910	20bc	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:26:36:933	1fb8	GPU 1 temp = 47, old fan speed = 26, new fan speed = 25 
+19:26:36:943	1fb8	GPU 2 temp = 39, old fan speed = 38, new fan speed = 25 
+19:26:36:958	1fb8	Failed to set new effective memory clock for GPU #2
+19:26:36:966	20bc	buf: {"id":3,"jsonrpc":"2.0","result":["0xcd2652b10e65a14d5e10959ceaa1f8ab90637489fc946ee57ee5562ac56b04c5","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a43"]}
+
+19:26:36:969	1fb8	GPU 3 temp = 49, old fan speed = 26, new fan speed = 25 
+19:26:37:116	1fb8	GPU 4 temp = 44, old fan speed = 28, new fan speed = 25 
+19:26:39:526	1fb8	GPU 5 temp = 57, old fan speed = 78, new fan speed = 60 
+19:26:39:526	23c8	buf: {"id":null,"method":"mining.notify","params":["ffb","25623723cec5c0a459dab217e09ca5ddb7eb397ddbc27cfc0000000000000000","1bb627e14f72784f3c36456ac27609ec367b2f2951cf0d4015d4660ff1f5c287a74164a29793744e10940cf61025aac732bb5f138833e3a4caf65347610146780100339761f53faf05000b00a19f0000bc3501190aad5e1f02000000e9f7030059360000af585a5b0000000000000000","05000000",[],"05000000","190135bc","5b5a58af",false]}
+
+19:26:41:471	23c8	 DCR: 07/26/18-19:26:40 - New job from dcr.suprnova.cc:3252
+19:26:41:571	23c8	target: 0x0000000001fffe00 (diff: 549GH), block #260073
+19:26:43:433	15e4	Quit, please wait...
+19:26:44:625	538	GPU 0 temp = 65, old fan speed = 20, new fan speed = 33 
+19:26:46:123	538	GPU 1 temp = 46, old fan speed = 26, new fan speed = 25 
+19:26:46:145	538	GPU 2 temp = 39, old fan speed = 38, new fan speed = 25 
+19:26:46:161	538	Failed to set new effective memory clock for GPU #2
+19:26:46:162	538	GPU 3 temp = 47, old fan speed = 26, new fan speed = 25 
+19:26:46:170	538	GPU 4 temp = 47, old fan speed = 27, new fan speed = 25 
+19:26:46:178	538	GPU 5 temp = 57, old fan speed = 74, new fan speed = 55 

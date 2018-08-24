@@ -1,0 +1,21 @@
+{
+  "name": "MultiMiner",
+  "version": "3.1.0",
+  "description": "MultiMiner",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . MultiMiner --overwrite --asar=true --platform=win32 --arch=ia32 --icon=32x32.ico --prune=true --out=Compiled --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"MultiMiner\""
+  },
+  "author": "pjrudd",
+  "devDependencies": {
+    "electron": "^2.0.4",
+    "electron-packager": "^12.1.0"
+  },
+  "dependencies": {
+    "ajax-request": "^1.2.3",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.2",
+    "electron-chartjs": "^1.0.0"
+  }
+}

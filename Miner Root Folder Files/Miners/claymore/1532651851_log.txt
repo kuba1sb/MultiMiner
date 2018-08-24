@@ -1,0 +1,142 @@
+20:37:31:627	1b10	Check and remove old log files...
+20:37:31:627	1b10	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x -cclock 1230 -mclock 2250 -cvddc 905 -mvddc 850 -ttli 75 -tt 69 -tstop -93 -allpools 1 -allcoins 1 -dcri 29 -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal pjrudd.Miner2 -dpsw x -mport 0 
+20:37:31:627	1b10	
+20:37:31:627	1b10	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:37:31:627	1b10	บ                Claymore's Dual GPU Miner - v11.9               บ
+20:37:31:627	1b10	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+20:37:31:627	1b10	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:37:31:627	1b10	
+20:37:31:627	1b10	b597 
+20:37:31:847	1b10	ETH: 1 pool is specified
+20:37:31:847	1b10	Main Ethereum pool is us1.ethermine.org:4444
+20:37:31:847	1b10	DCR: 1 pool is specified
+20:37:31:847	1b10	Main Decred pool is dcr.suprnova.cc:3252
+20:37:32:528	1b10	OpenCL platform: Intel(R) OpenCL
+20:37:32:528	1b10	OpenCL platform: AMD Accelerated Parallel Processing
+20:37:32:528	1b10	OpenCL initializing...
+
+20:37:32:528	1b10	AMD Cards available: 6 
+20:37:32:528	1b10	GPU #0: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 1:0:0)
+20:37:32:528	1b10	GPU #0 recognized as Radeon RX 480/580
+20:37:32:528	1b10	GPU #1: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 2:0:0)
+20:37:32:528	1b10	GPU #1 recognized as Radeon RX 550
+20:37:32:528	1b10	GPU #2: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 4:0:0)
+20:37:32:543	1b10	GPU #2 recognized as Radeon RX 550
+20:37:32:543	1b10	GPU #3: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 5:0:0)
+20:37:32:543	1b10	GPU #3 recognized as Radeon RX 550
+20:37:32:543	1b10	GPU #4: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 6:0:0)
+20:37:32:543	1b10	GPU #4 recognized as Radeon RX 550
+20:37:32:543	1b10	GPU #5: Baffin (Radeon RX 560 Series), 4096 MB available, 16 compute units (pci bus 7:0:0)
+20:37:32:543	1b10	GPU #5 recognized as Radeon RX 460/560
+20:37:32:543	1b10	POOL/SOLO version
+20:37:32:543	1b10	Platform: Windows
+20:37:32:590	1b10	Failed to set new effective memory clock for GPU #1
+20:37:32:606	1b10	Failed to set new effective memory clock for GPU #2
+20:37:32:606	1b10	Failed to set new effective memory clock for GPU #3
+20:37:32:606	1b10	Failed to set new effective memory clock for GPU #4
+20:37:32:637	1b10	start building OpenCL program for GPU 0...
+20:37:33:080	1b10	done
+20:37:33:298	1b10	start building OpenCL program for GPU 1...
+20:37:33:486	1b10	done
+20:37:33:700	1b10	start building OpenCL program for GPU 2...
+20:37:33:887	1b10	done
+20:37:34:106	1b10	start building OpenCL program for GPU 3...
+20:37:34:278	1b10	done
+20:37:34:512	1b10	start building OpenCL program for GPU 4...
+20:37:34:684	1b10	done
+20:37:34:918	1b10	start building OpenCL program for GPU 5...
+20:37:35:090	1b10	done
+20:37:35:340	1b10	GPU #0: algorithm ASM 1
+20:37:35:372	1b10	GPU #1: algorithm ASM 1
+20:37:35:403	1b10	GPU #2: algorithm ASM 1
+20:37:35:434	1b10	GPU #3: algorithm ASM 1
+20:37:35:465	1b10	GPU #4: algorithm ASM 1
+20:37:35:497	1b10	GPU #5: algorithm ASM 1
+20:37:35:497	1b10	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+20:37:35:497	1b10	No NVIDIA CUDA GPUs detected.
+20:37:35:497	1b10	Total cards: 6 
+20:37:35:497	1b10	
+Some GPUs (4) are 2GB and some (2) are not, developer fee will not be mined on 2GB GPUs, so devfee will be mined on 2 cards of 6.
+See Readme for details.
+
+20:37:37:136	1b10	No NVIDIA cards in the list, NVML library will not be used.
+20:37:37:136	1b10	Failed to set new effective memory clock for GPU #1
+20:37:37:136	1b10	Failed to set new effective memory clock for GPU #2
+20:37:37:151	1b10	Failed to set new effective memory clock for GPU #3
+20:37:37:151	1b10	Failed to set new effective memory clock for GPU #4
+20:37:37:870	2328	GPU 0 temp = 40, old fan speed = 0, new fan speed = 48 
+20:37:37:870	2328	GPU 1 temp = 47, old fan speed = 0, new fan speed = 25 
+20:37:37:885	2328	Failed to set new effective memory clock for GPU #1
+20:37:37:885	2328	GPU 2 temp = 43, old fan speed = 38, new fan speed = 25 
+20:37:37:885	2328	Failed to set new effective memory clock for GPU #2
+20:37:37:885	2328	GPU 3 temp = 46, old fan speed = 0, new fan speed = 25 
+20:37:37:885	2328	Failed to set new effective memory clock for GPU #3
+20:37:37:885	2328	GPU 4 temp = 41, old fan speed = 39, new fan speed = 25 
+20:37:37:901	2328	Failed to set new effective memory clock for GPU #4
+20:37:37:901	2328	GPU 5 temp = 54, old fan speed = 0, new fan speed = 25 
+20:37:38:198	1b10	SSL: Imported 31 certificates from local storage
+20:37:38:247	1284	ETH: Stratum - connecting to 'us1.ethermine.org' <18.191.218.23> port 4444 (unsecure)
+20:37:38:294	1284	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2", "x"], "id": 2, "method": "eth_submitLogin"}
+
+20:37:38:294	1284	ETH: Stratum - Connected (us1.ethermine.org:4444) (unsecure)
+20:37:38:309	1b10	DUAL MINING MODE ENABLED: ETHEREUM+DECRED
+20:37:38:309	1b10	ETH: eth-proxy stratum mode
+20:37:38:309	1b10	"-allpools" option is set, default pools can be used for devfee, check "Readme" file for details.
+20:37:38:309	1b10	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+20:37:38:309	1b10	Watchdog enabled
+20:37:38:309	1b10	
+20:37:38:356	1284	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+20:37:38:356	1284	ETH: Authorized
+20:37:38:356	1284	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:37:38:356	1b64	 DCR: Stratum - connecting to 'dcr.suprnova.cc' <149.202.215.198> port 3252 (unsecure)
+20:37:38:418	1284	buf: {"id":3,"jsonrpc":"2.0","result":["0xeed645eb217fafa5661b244755882f09a36b98ce8e0cbd3b989c2a2c5ea1a61e","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1b6b"]}
+
+20:37:38:450	1098	Setting DAG epoch #201...
+20:37:38:481	1b64	sent: {"id": 1, "method": "mining.subscribe", "params": ["dual 1.0"]}
+
+20:37:38:481	1b64	sent: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+20:37:38:481	1b64	sent: {"id": 2, "method": "mining.authorize", "params": ["pjrudd.Miner2","x"]}
+
+20:37:38:481	1b64	 DCR: Stratum - Connected (dcr.suprnova.cc:3252) (unsecure)
+20:37:38:621	1b64	buf: {"id":1,"result":[[["mining.notify","deadbeefcafebabeaa8b510000000000"]],"52303bbd481d83d474574082",12],"error":null}
+{"id":null,"method":"mining.set_difficulty","params":[128]}
+{"id":null,"method":"mining.notify","params":["1919","803137ae2c697ef9ce8bf5b546901f49a0ceb80c2020bfd60000000100000000","8eed57f347fbfa1b7e770e95b218ecbca05e03472750459f64261fa2aecdeefdb5a009df4c0f78728d300a9b0e26be4cc3aabe3e3cc5ba15909116618172955801001d6d25f97e63050006008c9f0000bc3501190aad5e1f02000000faf70300fa1d000041695a5b0000000000000000","05000000",[],"05000000","190135bc","5b5a6941",true]}
+{"id":2,"result":true,"error":null}
+
+20:37:38:621	1b64	remove first packet 497
+20:37:38:621	1b64	remove first packet 437
+20:37:38:621	1b64	remove first packet 36
+20:37:38:621	1b64	 DCR: Authorized
+20:37:39:059	1284	buf: {"id":0,"jsonrpc":"2.0","result":["0xcfda584a0c51308041c2fe3f78efc83a3351e3bd9df1f9427aff37556d64974a","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1b6c"]}
+
+20:37:39:059	1284	ETH: 07/26/18-20:37:39 - New job from us1.ethermine.org:4444
+20:37:39:059	1284	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+20:37:39:059	1284	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:37:39:059	1284	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+20:37:39:059	1284	 DCR - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0
+20:37:39:059	1284	 DCR: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+20:37:40:168	1560	Setting DAG epoch #201 for GPU1
+20:37:40:168	1098	Setting DAG epoch #201 for GPU5
+20:37:40:168	1098	Create GPU buffer for GPU5
+20:37:40:168	13ec	Setting DAG epoch #201 for GPU3
+20:37:40:168	1560	Create GPU buffer for GPU1
+20:37:40:168	13ec	Create GPU buffer for GPU3
+20:37:40:168	e1c	Setting DAG epoch #201 for GPU4
+20:37:40:168	235c	Setting DAG epoch #201 for GPU0
+20:37:40:168	938	Setting DAG epoch #201 for GPU2
+20:37:40:168	e1c	Create GPU buffer for GPU4
+20:37:40:168	235c	Create GPU buffer for GPU0
+20:37:40:168	938	Create GPU buffer for GPU2
+20:37:41:355	2328	GPU 0 temp = 47, old fan speed = 0, new fan speed = 38 
+20:37:41:371	2328	GPU 1 temp = 47, old fan speed = 0, new fan speed = 25 
+20:37:41:371	2328	Failed to set new effective memory clock for GPU #1
+20:37:41:371	2328	GPU 2 temp = 44, old fan speed = 37, new fan speed = 25 
+20:37:41:371	2328	Failed to set new effective memory clock for GPU #2
+20:37:41:371	2328	GPU 3 temp = 46, old fan speed = 0, new fan speed = 25 
+20:37:41:386	2328	Failed to set new effective memory clock for GPU #3
+20:37:41:386	2328	GPU 4 temp = 42, old fan speed = 39, new fan speed = 25 
+20:37:41:386	2328	Failed to set new effective memory clock for GPU #4
+20:37:41:386	2328	GPU 5 temp = 56, old fan speed = 20, new fan speed = 25 

@@ -1,0 +1,50 @@
+2018-Aug-12 17:50:43.353694 INFO    [daemon] 
+ 
+                           .===;========.__, 
+                           (/__)___________| 
+     L_____2ACoin______,--,--/ /-,-,-/ /-,   ________ 
+=====)o o o o ======== )) ____,===,___7_/_,_,_,_,'---,-, 
+     `--._,_,_,-,--,--'' (____| _ |___ oo ; ; ; ; ; ;_____ T| 
+              `-'--'-/_,-------| ) ___--,__,------._  __  |I| 
+                        ==----/    / )/--/_         `-._`-'I| 
+                       /=[  ]/     ` ==.- -             `-.L| 
+                      /==---/            - -  
+                      '-.__/              __7 
+version:1.0.1.0 () 
+
+2018-Aug-12 17:50:43.393700 INFO    [daemon] Module folder: C:\Miner\Wallets\2A\2ACoind.exe
+2018-Aug-12 17:50:43.402289 INFO    [RocksDBWrapper] Opening DB in C:\Users\jrudd\AppData\Roaming/2ACoin/DB
+2018-Aug-12 17:50:47.149716 INFO    [RocksDBWrapper] DB opened in C:\Users\jrudd\AppData\Roaming/2ACoin/DB
+2018-Aug-12 17:50:47.156713 INFO    [daemon] Initializing core...
+2018-Aug-12 17:50:47.167068 INFO    [Core] DB has more blocks than blockchain storage, cutting from block index: 565
+2018-Aug-12 17:50:47.172713 INFO    [Core] Cutting root segment from index 565
+2018-Aug-12 17:50:47.186087 INFO    [daemon] Core initialized OK
+2018-Aug-12 17:50:47.189278 INFO    [daemon] Initializing p2p server...
+2018-Aug-12 17:50:47.191713 INFO    [node_server] Generated new peer ID: 16302948996605560619
+2018-Aug-12 17:50:47.196715 INFO    [node_server] Binding on 0.0.0.0:17890
+2018-Aug-12 17:50:47.200714 INFO    [node_server] Net service binded on 0.0.0.0:17890
+2018-Aug-12 17:50:47.203715 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Aug-12 17:50:50.773044 INFO    [node_server] UPnP device was found but not recognized as IGD.
+2018-Aug-12 17:50:50.776733 INFO    [daemon] P2p server initialized OK
+2018-Aug-12 17:50:50.780339 INFO    [daemon] Starting core rpc server on address 127.0.0.1:17910
+2018-Aug-12 17:50:50.784733 INFO    [daemon] Core rpc server started ok
+2018-Aug-12 17:50:50.788737 INFO    [daemon] Starting p2p net loop...
+2018-Aug-12 17:50:50.792024 INFO    [node_server] Starting node_server
+2018-Aug-12 17:51:12.947853 INFO    [protocol] [45.76.232.71:17890 OUT] Your 2ACoin node is syncing with the network. You are 10094 blocks (10 days) behind the Network. Please be patient! 
+2018-Aug-12 17:51:12.955850 INFO    [protocol] New Top Block Detected: 10659
+2018-Aug-12 17:51:15.568867 INFO    [Core] Block 600 (8b13b027da233f85911066afa16b4b7b5cd9336ef0b368a04c84e80df72b3cce) added to main chain
+2018-Aug-12 17:51:20.175893 INFO    [Core] Block 700 (26784c67ac4f6d358563d7def14be731c509bf091b2b40963fa4ff56550f0723) added to main chain
+2018-Aug-12 17:51:23.649910 INFO    [protocol] [46.147.193.168:17890 OUT] Your 2ACoin node is syncing with the network. You are 9877 blocks (10 days) behind the Network. Please be patient! 
+2018-Aug-12 17:51:24.568912 INFO    [Core] Block 800 (25fc852c66b12fb1b20e4a154f8369fe913c49c6d9e6a439bef523527d2c45a0) added to main chain
+2018-Aug-12 17:51:25.304919 INFO    [protocol] [158.69.52.139:17890 OUT] Your 2ACoin node is syncing with the network. You are 9839 blocks (10 days) behind the Network. Please be patient! 
+2018-Aug-12 17:51:28.819937 INFO    [Core] Block 900 (3693881090bfe316e793b18eb0fa6f105eba9131dbb3e68e85d7bdc1cead76da) added to main chain
+2018-Aug-12 17:51:34.372078 INFO    [Core] Block 1000 (fb1b45829051d056dd7ba51d57f27270914b1d87f4f843fc65365fb74831ef60) added to main chain
+2018-Aug-12 17:51:36.234830 INFO    [protocol] [207.148.6.195:17890 OUT] Your 2ACoin node is syncing with the network. You are 9614 blocks (10 days) behind the Network. Please be patient! 
+2018-Aug-12 17:51:37.630764 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2018-Aug-12 17:51:37.630764 INFO    [node_server] Stopping NodeServer and its 4 connections...
+2018-Aug-12 17:51:38.645134 INFO    [node_server] NodeServer loop stopped
+2018-Aug-12 17:51:38.648858 INFO    [daemon] p2p net loop stopped
+2018-Aug-12 17:51:38.652489 INFO    [daemon] Stopping core rpc server...
+2018-Aug-12 17:51:38.657416 INFO    [daemon] Deinitializing p2p...
+2018-Aug-12 17:51:38.662451 INFO    [RocksDBWrapper] Closing DB.
+2018-Aug-12 17:51:38.761667 INFO    [daemon] Node stopped.

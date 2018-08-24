@@ -1,0 +1,41 @@
+19:32:07:499	1710	Check and remove old log files...
+19:32:07:499	1710	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x -cclock 1230 -mclock2250 -cvddc 905 -mvddc 850 -ttli75 -tt 69 -tstop -78 -tstart 45 -allpools 1 -allcoins 1 -dcri 29 -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal pjrudd.Miner2 -dpsw x -mport 0 
+19:32:07:499	1710	
+19:32:07:499	1710	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:32:07:499	1710	บ                Claymore's Dual GPU Miner - v11.9               บ
+19:32:07:499	1710	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+19:32:07:499	1710	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:32:07:499	1710	
+19:32:07:499	1710	b597 
+19:32:07:718	1710	ETH: 1 pool is specified
+19:32:07:718	1710	Main Ethereum pool is us1.ethermine.org:4444
+19:32:07:718	1710	DCR: 1 pool is specified
+19:32:07:718	1710	Main Decred pool is dcr.suprnova.cc:3252
+19:32:08:383	1710	OpenCL platform: Intel(R) OpenCL
+19:32:08:383	1710	OpenCL platform: AMD Accelerated Parallel Processing
+19:32:08:383	1710	OpenCL initializing...
+
+19:32:08:383	1710	AMD Cards available: 6 
+19:32:08:383	1710	GPU #0: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 1:0:0)
+19:32:08:383	1710	GPU #0 recognized as Radeon RX 480/580
+19:32:08:383	1710	GPU #1: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 2:0:0)
+19:32:08:383	1710	GPU #1 recognized as Radeon RX 550
+19:32:08:383	1710	GPU #2: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 4:0:0)
+19:32:08:383	1710	GPU #2 recognized as Radeon RX 550
+19:32:08:383	1710	GPU #3: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 5:0:0)
+19:32:08:383	1710	GPU #3 recognized as Radeon RX 550
+19:32:08:383	1710	GPU #4: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 6:0:0)
+19:32:08:383	1710	GPU #4 recognized as Radeon RX 550
+19:32:08:383	1710	GPU #5: Baffin (Radeon RX 560 Series), 4096 MB available, 16 compute units (pci bus 7:0:0)
+19:32:08:383	1710	GPU #5 recognized as Radeon RX 460/560
+19:32:08:383	1710	POOL/SOLO version
+19:32:08:383	1710	Platform: Windows
+19:32:08:446	1710	Failed to set new effective memory clock for GPU #2
+19:32:08:477	1710	Failed to set new effective memory clock for GPU #4
+19:32:08:508	1710	start building OpenCL program for GPU 0...
+19:32:08:946	1710	done
+19:32:09:181	1710	start building OpenCL program for GPU 1...
+19:32:09:368	1710	done
+19:32:09:603	1710	start building OpenCL program for GPU 2...
+19:32:09:790	1710	done
+19:32:10:024	1710	start building OpenCL program for GPU 3...

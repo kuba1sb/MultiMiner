@@ -1,0 +1,404 @@
+19:40:00:031	1710	Check and remove old log files...
+19:40:00:033	1710	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x -cclock 1167 -mclock 2199 -cvddc 850 -mvddc 960 -allpools 1 -allcoins 1 -dcri 5 -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal pjrudd.Miner2 -dpsw x -mport 0 
+19:40:00:033	1710	
+19:40:00:034	1710	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:40:00:034	1710	บ                Claymore's Dual GPU Miner - v11.9               บ
+19:40:00:034	1710	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+19:40:00:034	1710	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:40:00:035	1710	
+19:40:00:035	1710	b597 
+19:40:00:236	1710	ETH: 1 pool is specified
+19:40:00:237	1710	Main Ethereum pool is us1.ethermine.org:4444
+19:40:00:237	1710	DCR: 1 pool is specified
+19:40:00:238	1710	Main Decred pool is dcr.suprnova.cc:3252
+19:40:01:037	1710	OpenCL platform: Intel(R) OpenCL
+19:40:01:037	1710	OpenCL platform: AMD Accelerated Parallel Processing
+19:40:01:039	1710	OpenCL initializing...
+
+19:40:01:039	1710	AMD Cards available: 6 
+19:40:01:039	1710	GPU #0: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 1:0:0)
+19:40:01:040	1710	GPU #0 recognized as Radeon RX 480/580
+19:40:01:040	1710	GPU #1: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 2:0:0)
+19:40:01:040	1710	GPU #1 recognized as Radeon RX 550
+19:40:01:040	1710	GPU #2: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 4:0:0)
+19:40:01:040	1710	GPU #2 recognized as Radeon RX 550
+19:40:01:041	1710	GPU #3: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 5:0:0)
+19:40:01:041	1710	GPU #3 recognized as Radeon RX 550
+19:40:01:041	1710	GPU #4: gfx804 (Radeon RX 550 Series), 2048 MB available, 8 compute units (pci bus 6:0:0)
+19:40:01:041	1710	GPU #4 recognized as Radeon RX 550
+19:40:01:041	1710	GPU #5: Baffin (Radeon RX 560 Series), 4096 MB available, 16 compute units (pci bus 7:0:0)
+19:40:01:041	1710	GPU #5 recognized as Radeon RX 460/560
+19:40:01:042	1710	POOL/SOLO version
+19:40:01:042	1710	Platform: Windows
+19:40:01:088	1710	Failed to set new effective memory clock for GPU #1
+19:40:01:093	1710	Failed to set new effective memory clock for GPU #2
+19:40:01:099	1710	Failed to set new effective memory clock for GPU #3
+19:40:01:102	1710	Failed to set new effective memory clock for GPU #4
+19:40:01:126	1710	start building OpenCL program for GPU 0...
+19:40:01:571	1710	done
+19:40:01:774	1710	start building OpenCL program for GPU 1...
+19:40:01:969	1710	done
+19:40:02:171	1710	start building OpenCL program for GPU 2...
+19:40:02:363	1710	done
+19:40:02:565	1710	start building OpenCL program for GPU 3...
+19:40:02:757	1710	done
+19:40:02:960	1710	start building OpenCL program for GPU 4...
+19:40:03:197	1710	done
+19:40:03:404	1710	start building OpenCL program for GPU 5...
+19:40:03:642	1710	done
+19:40:03:886	1710	GPU #0: algorithm ASM 1
+19:40:03:916	1710	GPU #1: algorithm ASM 1
+19:40:03:946	1710	GPU #2: algorithm ASM 1
+19:40:03:980	1710	GPU #3: algorithm ASM 1
+19:40:04:010	1710	GPU #4: algorithm ASM 1
+19:40:04:040	1710	GPU #5: algorithm ASM 1
+19:40:04:041	1710	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+19:40:04:041	1710	No NVIDIA CUDA GPUs detected.
+19:40:04:041	1710	Total cards: 6 
+19:40:04:041	1710	
+Some GPUs (4) are 2GB and some (2) are not, developer fee will not be mined on 2GB GPUs, so devfee will be mined on 2 cards of 6.
+See Readme for details.
+
+19:40:05:243	1710	No NVIDIA cards in the list, NVML library will not be used.
+19:40:05:253	1710	Failed to set new effective memory clock for GPU #1
+19:40:05:257	1710	Failed to set new effective memory clock for GPU #2
+19:40:05:260	1710	Failed to set new effective memory clock for GPU #3
+19:40:05:263	1710	Failed to set new effective memory clock for GPU #4
+19:40:06:254	20a4	Failed to set new effective memory clock for GPU #1
+19:40:06:260	20a4	Failed to set new effective memory clock for GPU #2
+19:40:06:264	20a4	Failed to set new effective memory clock for GPU #3
+19:40:06:268	20a4	Failed to set new effective memory clock for GPU #4
+19:40:06:336	1710	SSL: Imported 31 certificates from local storage
+19:40:06:370	1e48	ETH: Stratum - connecting to 'us1.ethermine.org' <18.191.181.105> port 4444 (unsecure)
+19:40:06:437	1e48	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2", "x"], "id": 2, "method": "eth_submitLogin"}
+
+19:40:06:437	1e48	ETH: Stratum - Connected (us1.ethermine.org:4444) (unsecure)
+19:40:06:452	1710	DUAL MINING MODE ENABLED: ETHEREUM+DECRED
+19:40:06:452	1710	ETH: eth-proxy stratum mode
+19:40:06:457	1710	"-allpools" option is set, default pools can be used for devfee, check "Readme" file for details.
+19:40:06:458	1710	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+19:40:06:458	2350	 DCR: Stratum - connecting to 'dcr.suprnova.cc' <149.202.215.198> port 3252 (unsecure)
+19:40:06:458	1710	Watchdog enabled
+19:40:06:458	1710	
+19:40:06:503	1e48	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+19:40:06:503	1e48	ETH: Authorized
+19:40:06:505	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:40:06:553	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0x3b0e7c4bf0920ea2e827fb4483eeb98068840beab9018b31191a8cebbebae090","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7c"]}
+
+19:40:06:574	2350	sent: {"id": 1, "method": "mining.subscribe", "params": ["dual 1.0"]}
+
+19:40:06:574	2350	sent: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+19:40:06:574	2350	sent: {"id": 2, "method": "mining.authorize", "params": ["pjrudd.Miner2","x"]}
+
+19:40:06:574	2350	 DCR: Stratum - Connected (dcr.suprnova.cc:3252) (unsecure)
+19:40:06:639	1f4c	Setting DAG epoch #201...
+19:40:06:702	2350	buf: {"id":1,"result":[[["mining.notify","deadbeefcafebabee8ce5e0000000000"]],"c2eae9205c05774179989139",12],"error":null}
+{"id":null,"method":"mining.set_difficulty","params":[64]}
+{"id":null,"method":"mining.notify","params":["49c9","920cf2a0ff198fd523716c0346a56417e3216a6c1d12dd3b0000000000000000","ffe28a8fbc893f2e2b58c8e8d4060372a970f9244df5f085f10576fb0f7cbe8b49efd3b33715e56ca601774f59b5ad1ab0c7a8faa20cc696c8e55476e3193d250100c812f7ddac3a05000700a29f0000bc3501190aad5e1f02000000ebf70300f41c0000d45b5a5b0000000000000000","05000000",[],"05000000","190135bc","5b5a5bd4",false]}
+{"id":2,"result":true,"error":null}
+
+19:40:06:702	2350	remove first packet 497
+19:40:06:702	2350	remove first packet 438
+19:40:06:702	2350	remove first packet 36
+19:40:06:702	2350	 DCR: Authorized
+19:40:08:432	216c	Setting DAG epoch #201 for GPU1
+19:40:08:432	237c	Setting DAG epoch #201 for GPU5
+19:40:08:431	1f4c	Setting DAG epoch #201 for GPU3
+19:40:08:432	2368	Setting DAG epoch #201 for GPU2
+19:40:08:432	2360	Setting DAG epoch #201 for GPU0
+19:40:08:433	2360	Create GPU buffer for GPU0
+19:40:08:433	237c	Create GPU buffer for GPU5
+19:40:08:432	216c	Create GPU buffer for GPU1
+19:40:08:433	2368	Create GPU buffer for GPU2
+19:40:08:433	1f4c	Create GPU buffer for GPU3
+19:40:08:432	202c	Setting DAG epoch #201 for GPU4
+19:40:08:434	202c	Create GPU buffer for GPU4
+19:40:09:275	20a4	Failed to set new effective memory clock for GPU #1
+19:40:09:291	20a4	Failed to set new effective memory clock for GPU #2
+19:40:09:291	20a4	Failed to set new effective memory clock for GPU #3
+19:40:09:291	20a4	Failed to set new effective memory clock for GPU #4
+19:40:12:655	20a4	Failed to set new effective memory clock for GPU #1
+19:40:12:874	20a4	Failed to set new effective memory clock for GPU #2
+19:40:13:061	20a4	Failed to set new effective memory clock for GPU #3
+19:40:13:233	20a4	Failed to set new effective memory clock for GPU #4
+19:40:15:248	2360	GPU0 DAG creation time - 6729 ms
+19:40:15:311	2360	Setting DAG epoch #201 for GPU0 done
+19:40:16:560	1e48	ETH: checking pool connection...
+19:40:16:576	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:40:16:576	20a4	Failed to set new effective memory clock for GPU #1
+19:40:16:638	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0x3b0e7c4bf0920ea2e827fb4483eeb98068840beab9018b31191a8cebbebae090","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7c"]}
+
+19:40:16:842	20a4	Failed to set new effective memory clock for GPU #2
+19:40:16:982	20a4	Failed to set new effective memory clock for GPU #3
+19:40:17:170	20a4	Failed to set new effective memory clock for GPU #4
+19:40:20:528	20a4	Failed to set new effective memory clock for GPU #1
+19:40:20:637	20a4	Failed to set new effective memory clock for GPU #2
+19:40:21:012	20a4	Failed to set new effective memory clock for GPU #3
+19:40:21:122	20a4	Failed to set new effective memory clock for GPU #4
+19:40:24:590	1e48	buf: {"id":0,"jsonrpc":"2.0","result":["0xbf64bdb3a0809807eeced1e43feed82bafeecd111769a65244ed01ef487a69ed","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7d"]}
+
+19:40:24:730	1e48	ETH: 07/26/18-19:40:24 - New job from us1.ethermine.org:4444
+19:40:24:746	1e48	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:40:24:808	1e48	ETH - Total Speed: 7.626 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:40:24:855	1e48	ETH: GPU0 7.626 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+19:40:24:871	1e48	 DCR - Total Speed: 38.128 Mh/s, Total Shares: 0, Rejected: 0
+19:40:24:980	1e48	 DCR: GPU0 38.128 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+19:40:25:340	20a4	Failed to set new effective memory clock for GPU #1
+19:40:25:699	20a4	Failed to set new effective memory clock for GPU #2
+19:40:25:824	20a4	Failed to set new effective memory clock for GPU #3
+19:40:26:183	20a4	Failed to set new effective memory clock for GPU #4
+19:40:26:574	1e48	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x7b9076", "0x00000000000000000000000000000000000000000000000000000000477a67f5"]}
+
+19:40:26:605	1e48	ETH: checking pool connection...
+19:40:26:605	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:40:26:620	1e48	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:40:26:667	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0xbf64bdb3a0809807eeced1e43feed82bafeecd111769a65244ed01ef487a69ed","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7d"]}
+
+19:40:28:386	1e48	buf: {"id":0,"jsonrpc":"2.0","result":["0x1c8d29878d5b83446ae8dc96c5623453389e7b7823bbcf3a2a656e9fde070932","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7e"]}
+
+19:40:28:479	1e48	ETH: 07/26/18-19:40:28 - New job from us1.ethermine.org:4444
+19:40:28:479	1e48	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:40:28:651	1e48	ETH - Total Speed: 9.195 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:40:28:698	1e48	ETH: GPU0 9.195 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+19:40:28:698	1e48	 DCR - Total Speed: 45.973 Mh/s, Total Shares: 0, Rejected: 0
+19:40:28:698	1e48	 DCR: GPU0 45.973 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+19:40:28:792	237c	GPU5 DAG creation time - 20204 ms
+19:40:28:870	237c	Setting DAG epoch #201 for GPU5 done
+19:40:29:448	20a4	Failed to set new effective memory clock for GPU #1
+19:40:29:698	20a4	Failed to set new effective memory clock for GPU #2
+19:40:29:948	20a4	Failed to set new effective memory clock for GPU #3
+19:40:30:026	20a4	Failed to set new effective memory clock for GPU #4
+19:40:31:588	1e48	buf: {"id":0,"jsonrpc":"2.0","result":["0xa16ef568ffe05319f34713a65231a6c530f64c16d100555fc6c18779edb1773d","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7f"]}
+
+19:40:31:682	1e48	ETH: 07/26/18-19:40:31 - New job from us1.ethermine.org:4444
+19:40:31:697	1e48	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:40:31:822	1e48	ETH - Total Speed: 8.085 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:40:32:010	1e48	ETH: GPU0 8.085 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+19:40:32:057	1e48	 DCR - Total Speed: 40.426 Mh/s, Total Shares: 0, Rejected: 0
+19:40:32:057	1e48	 DCR: GPU0 40.426 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+19:40:32:525	232c	em hbt: -16, dm hbt: -31, fm hbt: 63, 
+19:40:32:541	232c	watchdog - thread 0 (gpu0), hb time 485
+19:40:32:541	232c	watchdog - thread 1 (gpu0), hb time 485
+19:40:32:541	232c	watchdog - thread 2 (gpu1), hb time 3672
+19:40:32:541	232c	watchdog - thread 3 (gpu1), hb time 3672
+19:40:32:541	232c	watchdog - thread 4 (gpu2), hb time 3672
+19:40:32:541	232c	watchdog - thread 5 (gpu2), hb time 3672
+19:40:32:541	232c	watchdog - thread 6 (gpu3), hb time 3672
+19:40:32:541	232c	watchdog - thread 7 (gpu3), hb time 3672
+19:40:32:541	232c	watchdog - thread 8 (gpu4), hb time 3672
+19:40:32:541	232c	watchdog - thread 9 (gpu4), hb time 3672
+19:40:32:541	232c	watchdog - thread 10 (gpu5), hb time 3672
+19:40:32:541	232c	watchdog - thread 11 (gpu5), hb time 3672
+19:40:33:431	20a4	Failed to set new effective memory clock for GPU #1
+19:40:33:509	20a4	Failed to set new effective memory clock for GPU #2
+19:40:33:791	20a4	Failed to set new effective memory clock for GPU #3
+19:40:34:087	20a4	Failed to set new effective memory clock for GPU #4
+19:40:36:681	1e48	ETH: checking pool connection...
+19:40:36:743	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:40:36:821	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0xa16ef568ffe05319f34713a65231a6c530f64c16d100555fc6c18779edb1773d","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7f"]}
+
+19:40:37:540	20a4	Failed to set new effective memory clock for GPU #1
+19:40:37:618	20a4	Failed to set new effective memory clock for GPU #2
+19:40:37:758	20a4	Failed to set new effective memory clock for GPU #3
+19:40:37:915	20a4	Failed to set new effective memory clock for GPU #4
+19:40:38:602	20a4	GPU0 t=89C fan=17%, GPU1 t=45C fan=0%, GPU2 t=42C fan=38%, GPU3 t=44C fan=0%, GPU4 t=40C fan=39%, GPU5 t=55C fan=40%
+19:40:41:883	20a4	Failed to set new effective memory clock for GPU #1
+19:40:41:945	20a4	Failed to set new effective memory clock for GPU #2
+19:40:41:961	20a4	Failed to set new effective memory clock for GPU #3
+19:40:41:976	20a4	Failed to set new effective memory clock for GPU #4
+19:40:45:397	20a4	Failed to set new effective memory clock for GPU #1
+19:40:45:725	20a4	Failed to set new effective memory clock for GPU #2
+19:40:45:803	20a4	Failed to set new effective memory clock for GPU #3
+19:40:46:397	20a4	Failed to set new effective memory clock for GPU #4
+19:40:46:616	1e48	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9ed305", "0x00000000000000000000000000000000000000000000000000000000477a67f5"]}
+
+19:40:46:678	1e48	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:40:46:803	1e48	ETH: checking pool connection...
+19:40:46:834	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:40:46:897	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0xa16ef568ffe05319f34713a65231a6c530f64c16d100555fc6c18779edb1773d","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7f"]}
+
+19:40:50:162	20a4	Failed to set new effective memory clock for GPU #1
+19:40:50:334	20a4	Failed to set new effective memory clock for GPU #2
+19:40:50:506	20a4	Failed to set new effective memory clock for GPU #3
+19:40:50:615	20a4	Failed to set new effective memory clock for GPU #4
+19:40:53:927	20a4	Failed to set new effective memory clock for GPU #1
+19:40:53:958	20a4	Failed to set new effective memory clock for GPU #2
+19:40:53:973	20a4	Failed to set new effective memory clock for GPU #3
+19:40:54:052	20a4	Failed to set new effective memory clock for GPU #4
+19:40:56:863	1e48	ETH: checking pool connection...
+19:40:56:895	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:40:56:957	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0xa16ef568ffe05319f34713a65231a6c530f64c16d100555fc6c18779edb1773d","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a7f"]}
+
+19:40:57:519	20a4	Failed to set new effective memory clock for GPU #1
+19:40:57:660	20a4	Failed to set new effective memory clock for GPU #2
+19:40:57:769	20a4	Failed to set new effective memory clock for GPU #3
+19:40:57:785	20a4	Failed to set new effective memory clock for GPU #4
+19:40:59:144	2350	buf: {"id":null,"method":"mining.notify","params":["49ca","920cf2a0ff198fd523716c0346a56417e3216a6c1d12dd3b0000000000000000","ffe28a8fbc893f2e2b58c8e8d4060372a970f9244df5f085f10576fb0f7cbe8b49efd3b33715e56ca601774f59b5ad1ab0c7a8faa20cc696c8e55476e3193d250100c812f7ddac3a05000700a29f0000bc3501190aad5e1f02000000ebf70300f41c00000b5c5a5b0000000000000000","05000000",[],"05000000","190135bc","5b5a5c0b",false]}
+
+19:40:59:300	2350	 DCR: 07/26/18-19:40:59 - New job from dcr.suprnova.cc:3252
+19:40:59:457	2350	target: 0x0000000003fffc00 (diff: 274GH), block #260075
+19:41:00:284	1e48	buf: {"id":0,"jsonrpc":"2.0","result":["0x2bc7ad0a3164c9bdae568b0b771619181a690f6948a38c3add18d60ca59d772f","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a80"]}
+
+19:41:00:456	1e48	ETH: 07/26/18-19:41:00 - New job from us1.ethermine.org:4444
+19:41:00:488	1e48	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:41:00:503	1e48	ETH - Total Speed: 9.914 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+19:41:00:503	1e48	ETH: GPU0 9.203 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.711 Mh/s
+19:41:00:503	1e48	 DCR - Total Speed: 49.567 Mh/s, Total Shares: 0, Rejected: 0
+19:41:00:503	1e48	 DCR: GPU0 46.015 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 3.552 Mh/s
+19:41:01:394	20a4	Failed to set new effective memory clock for GPU #1
+19:41:01:690	20a4	Failed to set new effective memory clock for GPU #2
+19:41:02:487	20a4	Failed to set new effective memory clock for GPU #3
+19:41:03:237	20a4	Failed to set new effective memory clock for GPU #4
+19:41:06:611	1e48	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xe8fa48", "0x00000000000000000000000000000000000000000000000000000000477a67f5"]}
+
+19:41:06:689	1e48	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:41:06:705	20a4	Failed to set new effective memory clock for GPU #1
+19:41:06:767	20a4	Failed to set new effective memory clock for GPU #2
+19:41:06:908	1e48	ETH: checking pool connection...
+19:41:06:908	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:41:07:236	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0x2bc7ad0a3164c9bdae568b0b771619181a690f6948a38c3add18d60ca59d772f","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a80"]}
+
+19:41:07:267	20a4	Failed to set new effective memory clock for GPU #3
+19:41:07:314	20a4	Failed to set new effective memory clock for GPU #4
+19:41:08:095	232c	em hbt: -15, dm hbt: -93, fm hbt: 16, 
+19:41:08:329	232c	watchdog - thread 0 (gpu0), hb time 1781
+19:41:08:376	232c	watchdog - thread 1 (gpu0), hb time 1063
+19:41:08:376	232c	watchdog - thread 2 (gpu1), hb time 39500
+19:41:08:376	232c	watchdog - thread 3 (gpu1), hb time 39500
+19:41:08:376	232c	watchdog - thread 4 (gpu2), hb time 39500
+19:41:08:486	232c	watchdog - thread 5 (gpu2), hb time 39594
+19:41:08:501	232c	watchdog - thread 6 (gpu3), hb time 39625
+19:41:08:501	232c	watchdog - thread 7 (gpu3), hb time 39625
+19:41:08:501	232c	watchdog - thread 8 (gpu4), hb time 39625
+19:41:08:501	232c	watchdog - thread 9 (gpu4), hb time 39625
+19:41:08:501	232c	watchdog - thread 10 (gpu5), hb time 3578
+19:41:08:501	232c	watchdog - thread 11 (gpu5), hb time 2094
+19:41:11:844	20a4	Failed to set new effective memory clock for GPU #1
+19:41:12:063	20a4	Failed to set new effective memory clock for GPU #2
+19:41:12:266	20a4	Failed to set new effective memory clock for GPU #3
+19:41:12:594	20a4	Failed to set new effective memory clock for GPU #4
+19:41:14:969	1e48	buf: {"id":0,"jsonrpc":"2.0","result":["0x2a4343c9b0483825331fc5efa036fc66c8014e1ced2cc1aea249a5824def704a","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a81"]}
+
+19:41:15:140	1e48	ETH: 07/26/18-19:41:15 - New job from us1.ethermine.org:4444
+19:41:15:140	1e48	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:41:16:000	1e48	ETH - Total Speed: 12.971 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+19:41:16:531	1e48	ETH: GPU0 10.905 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 2.065 Mh/s
+19:41:16:843	1e48	 DCR - Total Speed: 64.853 Mh/s, Total Shares: 0, Rejected: 0
+19:41:16:874	20a4	Failed to set new effective memory clock for GPU #1
+19:41:16:874	1e48	 DCR: GPU0 54.527 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 10.326 Mh/s
+19:41:16:890	20a4	Failed to set new effective memory clock for GPU #2
+19:41:16:906	20a4	Failed to set new effective memory clock for GPU #3
+19:41:16:921	1e48	ETH: checking pool connection...
+19:41:17:015	20a4	Failed to set new effective memory clock for GPU #4
+19:41:17:031	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:41:17:093	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0x2a4343c9b0483825331fc5efa036fc66c8014e1ced2cc1aea249a5824def704a","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a81"]}
+
+19:41:18:983	2360	checked ETH share on CPU, spent 6774ms
+19:41:19:046	2360	sent: {"id":10,"method":"eth_submitWork","params":["0x6ec4be78076afea1","0x2bc7ad0a3164c9bdae568b0b771619181a690f6948a38c3add18d60ca59d772f","0x4e2e88f008d2c6e052702832d976507fdc820ddf85e3ecaddb3c9604f3c362ad"]}
+
+19:41:19:046	2360	ETH: put share nonce 6ec4be78076afea1
+19:41:19:061	1e48	ETH: 07/26/18-19:41:19 - SHARE FOUND - (GPU 0)
+19:41:19:108	1e48	buf: {"id":10,"jsonrpc":"2.0","result":true}
+
+19:41:19:108	1e48	ETH: Share accepted (62 ms)!
+19:41:20:077	20a4	Failed to set new effective memory clock for GPU #1
+19:41:20:077	20a4	Failed to set new effective memory clock for GPU #2
+19:41:20:092	20a4	Failed to set new effective memory clock for GPU #3
+19:41:20:092	20a4	Failed to set new effective memory clock for GPU #4
+19:41:20:108	20a4	GPU0 t=87C fan=36%, GPU1 t=46C fan=0%, GPU2 t=43C fan=38%, GPU3 t=45C fan=0%, GPU4 t=40C fan=39%, GPU5 t=59C fan=40%
+19:41:23:138	20a4	Failed to set new effective memory clock for GPU #1
+19:41:23:138	20a4	Failed to set new effective memory clock for GPU #2
+19:41:23:154	20a4	Failed to set new effective memory clock for GPU #3
+19:41:23:154	20a4	Failed to set new effective memory clock for GPU #4
+19:41:26:216	1e48	buf: {"id":0,"jsonrpc":"2.0","result":["0xe83113f2e1c37c6df9eb03b6ccdddbc7a273afc234eacd4b6934da6dce0270be","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a82"]}
+
+19:41:26:278	1e48	ETH: 07/26/18-19:41:26 - New job from us1.ethermine.org:4444
+19:41:26:278	1e48	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:41:26:356	1e48	ETH - Total Speed: 14.747 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:01
+19:41:26:481	1e48	ETH: GPU0 12.397 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 2.350 Mh/s
+19:41:26:466	20a4	Failed to set new effective memory clock for GPU #1
+19:41:26:575	1e48	 DCR - Total Speed: 73.734 Mh/s, Total Shares: 0, Rejected: 0
+19:41:26:669	1e48	 DCR: GPU0 61.985 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 11.749 Mh/s
+19:41:26:685	20a4	Failed to set new effective memory clock for GPU #2
+19:41:26:685	1e48	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0xe105e7", "0x00000000000000000000000000000000000000000000000000000000477a67f5"]}
+
+19:41:26:700	20a4	Failed to set new effective memory clock for GPU #3
+19:41:26:763	1e48	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+19:41:26:763	20a4	Failed to set new effective memory clock for GPU #4
+19:41:27:387	1e48	ETH: checking pool connection...
+19:41:27:497	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:41:27:559	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0xe83113f2e1c37c6df9eb03b6ccdddbc7a273afc234eacd4b6934da6dce0270be","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a82"]}
+
+19:41:30:168	20a4	Failed to set new effective memory clock for GPU #1
+19:41:30:246	20a4	Failed to set new effective memory clock for GPU #2
+19:41:30:262	20a4	Failed to set new effective memory clock for GPU #3
+19:41:30:262	20a4	Failed to set new effective memory clock for GPU #4
+19:41:34:292	20a4	Failed to set new effective memory clock for GPU #1
+19:41:34:401	20a4	Failed to set new effective memory clock for GPU #2
+19:41:34:417	20a4	Failed to set new effective memory clock for GPU #3
+19:41:34:433	20a4	Failed to set new effective memory clock for GPU #4
+19:41:37:510	1e48	ETH: checking pool connection...
+19:41:37:557	1e48	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+19:41:37:635	20a4	Failed to set new effective memory clock for GPU #1
+19:41:37:698	1e48	buf: {"id":3,"jsonrpc":"2.0","result":["0xe83113f2e1c37c6df9eb03b6ccdddbc7a273afc234eacd4b6934da6dce0270be","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a82"]}
+
+19:41:37:776	20a4	Failed to set new effective memory clock for GPU #2
+19:41:38:010	20a4	Failed to set new effective memory clock for GPU #3
+19:41:38:135	20a4	Failed to set new effective memory clock for GPU #4
+19:41:41:540	20a4	Failed to set new effective memory clock for GPU #1
+19:41:41:712	20a4	Failed to set new effective memory clock for GPU #2
+19:41:41:884	20a4	Failed to set new effective memory clock for GPU #3
+19:41:42:025	20a4	Failed to set new effective memory clock for GPU #4
+19:41:42:337	1e48	buf: {"id":0,"jsonrpc":"2.0","result":["0x8ae37a5a4f1e9f69eeaaf00ee571b28264b4c19126432b8ea33abad1d4d094d9","0x0565d880e378b22250f35f260bac49983734114a9d338b7d7bacea1985c67dd4","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c1a83"]}
+
+19:41:42:603	1e48	ETH: 07/26/18-19:41:42 - New job from us1.ethermine.org:4444
+19:41:43:024	1e48	target: 0x0000000112e0be82 (diff: 4000MH), epoch 201(2.57GB)
+19:41:43:181	1e48	ETH - Total Speed: 16.672 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:01
+19:41:43:274	1e48	ETH: GPU0 13.766 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 2.906 Mh/s
+19:41:43:368	1e48	 DCR - Total Speed: 83.358 Mh/s, Total Shares: 0, Rejected: 0
+19:41:43:493	1e48	 DCR: GPU0 68.829 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 14.529 Mh/s
+19:41:44:009	232c	em hbt: 0, dm hbt: 0, fm hbt: 0, 
+19:41:44:087	232c	watchdog - thread 0 (gpu0), hb time 1032
+19:41:44:102	232c	watchdog - thread 1 (gpu0), hb time 218
+19:41:44:102	232c	watchdog - thread 2 (gpu1), hb time 75234
+19:41:44:149	232c	WATCHDOG: GPU 1 hangs in OpenCL call, exit
+19:41:44:149	232c	watchdog - thread 3 (gpu1), hb time 75281
+19:41:44:243	232c	WATCHDOG: GPU 1 hangs in OpenCL call, exit
+19:41:44:305	232c	watchdog - thread 4 (gpu2), hb time 75406
+19:41:44:305	232c	WATCHDOG: GPU 2 hangs in OpenCL call, exit
+19:41:44:305	232c	watchdog - thread 5 (gpu2), hb time 75437
+19:41:44:430	232c	WATCHDOG: GPU 2 hangs in OpenCL call, exit
+19:41:44:446	232c	watchdog - thread 6 (gpu3), hb time 75578
+19:41:44:462	232c	WATCHDOG: GPU 3 hangs in OpenCL call, exit
+19:41:44:462	232c	watchdog - thread 7 (gpu3), hb time 75594
+19:41:44:462	232c	WATCHDOG: GPU 3 hangs in OpenCL call, exit
+19:41:44:462	232c	watchdog - thread 8 (gpu4), hb time 75594
+19:41:44:462	232c	WATCHDOG: GPU 4 hangs in OpenCL call, exit
+19:41:44:462	232c	watchdog - thread 9 (gpu4), hb time 75594
+19:41:44:462	232c	WATCHDOG: GPU 4 hangs in OpenCL call, exit
+19:41:44:462	232c	watchdog - thread 10 (gpu5), hb time 1485
+19:41:44:462	232c	watchdog - thread 11 (gpu5), hb time 485
+19:41:44:915	1fd4	Failed to set new effective memory clock for GPU #1
+19:41:45:024	1fd4	Failed to set new effective memory clock for GPU #2
+19:41:45:055	1fd4	Failed to set new effective memory clock for GPU #3
+19:41:45:071	1fd4	Failed to set new effective memory clock for GPU #4
+19:41:45:274	1fd4	Quit, please wait...
+19:41:52:335	232c	Restarting OK, exit...
+
+

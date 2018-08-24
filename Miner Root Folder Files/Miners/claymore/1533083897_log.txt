@@ -1,0 +1,96 @@
+20:38:17:472	1f84	Check and remove old log files...
+20:38:17:472	1f84	args: -epool us1.ethermine.org:4444 -ewal 0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2 -epsw x 
+20:38:17:472	1f84	
+20:38:17:472	1f84	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:38:17:472	1f84	บ                Claymore's Dual GPU Miner - v11.9               บ
+20:38:17:472	1f84	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+20:38:17:472	1f84	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:38:17:472	1f84	
+20:38:17:472	1f84	b597 
+20:38:17:691	1f84	ETH: 1 pool is specified
+20:38:17:691	1f84	Main Ethereum pool is us1.ethermine.org:4444
+20:38:17:691	1f84	DCR: 0 pool is specified
+20:38:18:097	1f84	OpenCL platform: Intel(R) OpenCL
+20:38:18:097	1f84	OpenCL platform: AMD Accelerated Parallel Processing
+20:38:18:097	1f84	OpenCL initializing...
+
+20:38:18:097	1f84	AMD Cards available: 6 
+20:38:18:097	1f84	GPU #0: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 1:0:0)
+20:38:18:097	1f84	GPU #0 recognized as Radeon RX 480/580
+20:38:18:097	1f84	GPU #1: gfx804 (Radeon 550 Series), 2048 MB available, 8 compute units (pci bus 2:0:0)
+20:38:18:097	1f84	GPU #1 recognized as Radeon RX 550
+20:38:18:097	1f84	GPU #2: Ellesmere (Radeon RX 580 Series), 8192 MB available, 36 compute units (pci bus 4:0:0)
+20:38:18:097	1f84	GPU #2 recognized as Radeon RX 480/580
+20:38:18:097	1f84	GPU #3: gfx804 (Radeon 550 Series), 2048 MB available, 8 compute units (pci bus 5:0:0)
+20:38:18:097	1f84	GPU #3 recognized as Radeon RX 550
+20:38:18:097	1f84	GPU #4: gfx804 (Radeon 550 Series), 2048 MB available, 8 compute units (pci bus 6:0:0)
+20:38:18:097	1f84	GPU #4 recognized as Radeon RX 550
+20:38:18:097	1f84	GPU #5: Baffin (Radeon RX 560 Series), 4096 MB available, 16 compute units (pci bus 7:0:0)
+20:38:18:097	1f84	GPU #5 recognized as Radeon RX 460/560
+20:38:18:097	1f84	POOL/SOLO version
+20:38:18:097	1f84	Platform: Windows
+20:38:18:159	1f84	start building OpenCL program for GPU 0...
+20:38:18:378	1f84	done
+20:38:18:597	1f84	start building OpenCL program for GPU 1...
+20:38:18:800	1f84	done
+20:38:19:018	1f84	start building OpenCL program for GPU 2...
+20:38:19:221	1f84	done
+20:38:19:440	1f84	start building OpenCL program for GPU 3...
+20:38:19:643	1f84	done
+20:38:19:862	1f84	start building OpenCL program for GPU 4...
+20:38:20:065	1f84	done
+20:38:20:284	1f84	start building OpenCL program for GPU 5...
+20:38:20:487	1f84	done
+20:38:20:721	1f84	GPU #0: algorithm ASM 1
+20:38:20:752	1f84	GPU #1: algorithm ASM 1
+20:38:20:784	1f84	GPU #2: algorithm ASM 1
+20:38:20:815	1f84	GPU #3: algorithm ASM 1
+20:38:20:846	1f84	GPU #4: algorithm ASM 1
+20:38:20:877	1f84	GPU #5: algorithm ASM 1
+20:38:20:877	1f84	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+20:38:20:877	1f84	No NVIDIA CUDA GPUs detected.
+20:38:20:877	1f84	Total cards: 6 
+20:38:20:877	1f84	
+Some GPUs (3) are 2GB and some (3) are not, developer fee will not be mined on 2GB GPUs, so devfee will be mined on 3 cards of 6.
+See Readme for details.
+
+20:38:22:924	1f84	No NVIDIA cards in the list, NVML library will not be used.
+20:38:23:955	1f84	SSL: Imported 32 certificates from local storage
+20:38:23:986	970	ETH: Stratum - connecting to 'us1.ethermine.org' <18.191.218.23> port 4444 (unsecure)
+20:38:24:033	970	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x4B9D5408DDc45051aeB44A23F748cAF55e8E1Dd4.Miner2", "x"], "id": 2, "method": "eth_submitLogin"}
+
+20:38:24:033	970	ETH: Stratum - Connected (us1.ethermine.org:4444) (unsecure)
+20:38:24:065	1f84	No pool specified for Decred! Ethereum-only mining mode is enabled
+20:38:24:065	1f84	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+20:38:24:065	1f84	ETH: eth-proxy stratum mode
+20:38:24:065	1f84	Watchdog enabled
+20:38:24:065	1f84	Remote management (READ-ONLY MODE) is enabled on port 3333
+20:38:24:065	1f84	
+20:38:24:065	1f84	You did not specify -dcri values directly, so they will be detected automatically
+20:38:24:065	1f84	Automatic detection of best -dcri values started, please wait...
+
+20:38:24:096	970	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+20:38:24:096	970	ETH: Authorized
+20:38:24:096	970	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:38:24:143	970	buf: {"id":3,"jsonrpc":"2.0","result":["0xb8ffe5a4f592ce39218711e7fbb58a16f77256b3406b7d04cffd0d83bf506368","0xf79b52b49b7c6f27ac46f1dae8ec9ba109677010a0b9b7afda231cee90bc1ea9","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x5c8fd4"]}
+
+20:38:24:205	1698	Setting DAG epoch #202...
+20:38:25:923	1904	Setting DAG epoch #202 for GPU0
+20:38:25:923	1778	Setting DAG epoch #202 for GPU3
+20:38:25:923	1698	Setting DAG epoch #202 for GPU5
+20:38:25:923	18fc	Setting DAG epoch #202 for GPU2
+20:38:25:923	18fc	Create GPU buffer for GPU2
+20:38:25:923	1904	Create GPU buffer for GPU0
+20:38:25:923	1778	Create GPU buffer for GPU3
+20:38:25:923	174c	Setting DAG epoch #202 for GPU1
+20:38:25:923	1698	Create GPU buffer for GPU5
+20:38:25:923	544	Setting DAG epoch #202 for GPU4
+20:38:25:923	174c	Create GPU buffer for GPU1
+20:38:25:923	544	Create GPU buffer for GPU4
+20:38:28:220	10e4	Quit, please wait...
+20:38:30:579	1904	GPU0 DAG creation time - 4583 ms
+20:38:30:579	1904	Setting DAG epoch #202 for GPU0 done
+20:38:31:657	18fc	GPU2 DAG creation time - 5648 ms
+20:38:31:657	18fc	Setting DAG epoch #202 for GPU2 done
